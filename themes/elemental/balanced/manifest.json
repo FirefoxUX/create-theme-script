@@ -29,7 +29,7 @@
       "toolbar_field_border_focus": "hsl(43, 7%, 60%)",
       "panel_separator": "hsl(43, 7%, 60%)",
       "popup_border": "hsl(43, 7%, 60%)",
-      "tab_line": "hsl(0, 0%, 0%)",
+      "tab_line": "transparent",
       "popup_highlight": "hsla(38, 7%, 70%, 0.6)",
       "sidebar_highlight": "hsla(38, 7%, 70%, 0.6)",
       "panel_item_hover": "hsla(38, 7%, 70%, 0.6)",

@@ -69,9 +69,15 @@ try {
         const borderLowContrast = colord(
           colors["05-border-low-contrast"].value
         ).toHslString();
-        const borderHighContrast = colord(
+        let borderHighContrast = colord(
           colors["06-border-high-contrast"].value
         ).toHslString();
+        // Even though border-high-contrast is defined for most themes, it
+        // shouldn't be used in Soft and Balanced themes.
+        if (variantName != "bold") {
+          borderHighContrast = "transparent";
+        }
+        // Ignore 07-highlight-row, since the default color is used.
         const highlightRows = colord(
           colors["08-highlight-rows"].value
         ).toHslString();
