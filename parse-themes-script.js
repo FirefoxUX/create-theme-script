@@ -204,7 +204,8 @@ try {
       <stop offset="1" stop-color="${toolbarColor}"/>
     </linearGradient>
   </defs>
-</svg>`;
+</svg>
+`;
         writeFile(`./themes/${group}/${variantName}/icon.svg`, icon, (err) => {
           if (err) {
             console.log(err);
@@ -229,7 +230,8 @@ try {
   <rect x="114" y="52" width="488" height="32" rx="4" fill="${toolbarFieldBackground}" />
   <circle cx="130" cy="68" r="6.25" stroke="${darkText}" stroke-width="1.5" />
   <rect x="146" y="66" width="308" height="4" rx="2" fill="${darkText}" />
-</svg>`;
+</svg>
+`;
         // The preview files get dumped into their own folder since that's how
         // they're organized in-tree.
         writeFile(`./themes/previews/firefox-${idName}.svg`, preview, (err) => {
