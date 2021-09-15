@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "firefox-lush-bold@mozilla.org"
+    }
+  },
+  "name": "Lush (Bold)",
+  "author": "Mozilla",
+  "version": "1.0",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": "hsl(138, 16%, 32%)",
+      "toolbar_field": "hsl(138, 16%, 32%)",
+      "toolbar": "hsl(138, 15%, 44%)",
+      "address_bar_box_focus": "hsl(138, 15%, 44%)",
+      "toolbar_text": "hsl(0, 0%, 100%)",
+      "tab_text": "hsl(0, 0%, 100%)",
+      "tab_background_text": "hsl(0, 0%, 100%)",
+      "toolbar_field_text": "hsl(0, 0%, 100%)",
+      "popup_text": "hsl(0, 0%, 100%)",
+      "ntp_text": "hsl(0, 0%, 100%)",
+      "sidebar_text": "hsl(0, 0%, 100%)",
+      "popup_highlight_text": "hsl(0, 0%, 100%)",
+      "ntp_background": "hsl(150, 2%, 20%)",
+      "toolbar_field_border_focus": "hsl(140, 10%, 35%)",
+      "panel_separator": "hsl(140, 10%, 35%)",
+      "popup_border": "hsl(140, 10%, 35%)",
+      "tab_line": "hsl(139, 8%, 48%)",
+      "popup_highlight": "hsla(137, 18%, 50%, 0.42)",
+      "sidebar_highlight": "hsla(137, 18%, 50%, 0.42)",
+      "panel_item_hover": "hsla(137, 18%, 50%, 0.42)",
+      "panel_item_active": "hsla(137, 18%, 50%, 0.52)",
+      "popup": "hsl(140, 2%, 28%)",
+      "sidebar": "hsl(140, 2%, 28%)",
+      "toolbar_field_focus": "hsl(140, 2%, 28%)",
+      "tab_selected": "hsl(140, 2%, 28%)",
+      "ntp_card_background": "hsl(140, 2%, 28%)",
+      "address_bar_box": "hsl(140, 2%, 28%)",
+      "url_color": "hsl(146, 44%, 86%)",
+      "zap_gradient": "transparent"
+    }
+  },
+  "theme_experiment": {
+    "colors": {
+      "panel_separator": "--panel-separator-color",
+      "address_bar_box": "--urlbar-box-bgcolor",
+      "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
+      "url_color": "--urlbar-popup-url-color",
+      "zap_gradient": "--panel-separator-zap-gradient",
+      "panel_item_hover": "--panel-item-hover-bgcolor",
+      "panel_item_active": "--panel-item-active-bgcolor"
+    }
+  }
+}

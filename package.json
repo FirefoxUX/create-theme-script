@@ -1,0 +1,15 @@
+{
+  "name": "parse-themes",
+  "version": "1.0.0",
+  "description": "Script to create manifest files from a Figma export.",
+  "main": "parse-themes-script.js",
+  "type": "module",
+  "devDependencies": {
+    "colord": "^2.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry Twyford",
+  "license": "MPL-2.0"
+}

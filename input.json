@@ -1,0 +1,1548 @@
+{
+  "lush": {
+    "lush light": {
+      "00 base_color": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(132, 149, 139, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(210, 228, 218, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(233, 242, 236, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(48, 54, 51, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(48, 54, 51, 0.9)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(48, 54, 51, 0.15)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(245, 249, 247, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(217, 232, 223, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "hsla(138, 8%, 85%, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(210, 228, 217, 0.7)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(62, 101, 78, 1)",
+        "type": "color"
+      }
+    },
+    "lush medium": {
+      "00 base_color_superhero": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(132, 149, 139, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(64, 89, 74, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(78, 106, 90, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.8)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.2)",
+        "type": "color"
+      },
+      "03b text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.25)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(205, 214, 208, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(96, 159, 122, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(233, 236, 234, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(65, 139, 96, 0.3)",
+        "type": "color"
+      },
+      "09a modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "09b modal_backgrounds (tab and search)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(239, 241, 239, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(69, 95, 77, 1)",
+        "type": "color"
+      }
+    },
+    "lush dark": {
+      "00 base_color": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(42, 97, 58, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(69, 95, 77, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(95, 129, 105, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(50, 52, 51, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(80, 98, 86, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(113, 132, 119, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(105, 150, 118, 0.42)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(70, 73, 71, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(203, 235, 217, 1)",
+        "type": "color"
+      }
+    }
+  },
+  "abstract": {
+    "abstract light": {
+      "00 base_color_abstract": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(226, 117, 80, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 162, 128, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 188, 163, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(21, 20, 19, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(21, 20, 19, 0.85)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(21, 20, 19, 0.15)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(253, 245, 242, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(240, 186, 168, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(242, 71, 13, 0.2)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(165, 63, 29, 1)",
+        "type": "color"
+      }
+    },
+    "abstract medium": {
+      "00 base_color_abstract": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(230, 125, 90, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(140, 60, 33, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(165, 71, 39, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.75)",
+        "type": "color"
+      },
+      "03a text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.15)",
+        "type": "color"
+      },
+      "03b text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(224, 194, 184, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(230, 125, 90, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(252, 241, 237, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(241, 128, 91, 0.3)",
+        "type": "color"
+      },
+      "09a modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "09b modal_backgrounds (tab and search)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(253, 245, 242, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(165, 71, 39, 1)",
+        "type": "color"
+      }
+    },
+    "abstract dark": {
+      "00 base_colour_abstract": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(230, 125, 90, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(45, 39, 37, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(70, 61, 57, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 205, 187, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 205, 187, 0.9)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 205, 187, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(36, 32, 30, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 204, 185, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 204, 185, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 204, 185, 0.2)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(56, 52, 51, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(229, 174, 153, 1)",
+        "type": "color"
+      }
+    }
+  },
+  "elemental": {
+    "elemental light": {
+      "00 base_color_elemental": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(161, 157, 148, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(226, 225, 222, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(241, 240, 239, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(28, 27, 23, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(28, 27, 23, 0.88)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(28, 27, 23, 0.1)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(243, 243, 241, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(219, 218, 214, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(191, 188, 182, 0.4)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(103, 99, 90, 1)",
+        "type": "color"
+      }
+    },
+    "elemental medium": {
+      "00 base_color_elemental": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(103, 99, 90, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(82, 78, 71, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(141, 136, 125, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "03b text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.7)",
+        "type": "color"
+      },
+      "03b text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.15)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(49, 47, 43, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(160, 156, 146, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(184, 180, 173, 0.6)",
+        "type": "color"
+      },
+      "09a modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "09b modal_backgrounds (tab and search)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(236, 235, 233, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(50, 52, 51, 1)",
+        "type": "color"
+      }
+    },
+    "elemental dark": {
+      "00 base_color_elemental": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(103, 99, 90, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(82, 78, 71, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(114, 110, 100, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.9)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(82, 78, 71, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(109, 105, 95, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(103, 99, 90, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(184, 180, 173, 0.4)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(68, 65, 59, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(226, 225, 222, 1)",
+        "type": "color"
+      }
+    }
+  },
+  "cheers": {
+    "cheers light": {
+      "00 base_color_cheers": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(215, 175, 80, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 210, 102, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 231, 173, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.78)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.1)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(247, 240, 222, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 195, 51, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 222, 143, 1)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(153, 107, 0, 1)",
+        "type": "color"
+      }
+    },
+    "cheers medium": {
+      "00 base_color_cheers": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(215, 175, 80, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(250, 192, 56, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 208, 106, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.85)",
+        "type": "color"
+      },
+      "03a text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.15)",
+        "type": "color"
+      },
+      "03b text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.85)",
+        "type": "color"
+      },
+      "03b text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(23, 23, 23, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(234, 213, 164, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 197, 61, 0.4)",
+        "type": "color"
+      },
+      "09a modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(51, 51, 51, 1)",
+        "type": "color"
+      },
+      "09b modal_backgrounds (tab and search)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(52, 52, 52, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(250, 192, 56, 1)",
+        "type": "color"
+      }
+    },
+    "cheers dark": {
+      "00 base_colour_cheers": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(215, 175, 80, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(28, 28, 28, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(61, 61, 61, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 200, 81, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 200, 81, 0.85)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 200, 81, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(29, 29, 29, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(250, 192, 56, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(233, 183, 62, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(250, 192, 56, 0.25)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(52, 52, 52, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(234, 204, 134, 1)",
+        "type": "color"
+      }
+    }
+  },
+  "graffiti": {
+    "graffiti light": {
+      "00 base_colur_graffiti": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(171, 157, 179, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(215, 163, 245, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(225, 186, 247, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(27, 20, 31, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(27, 20, 31, 0.85)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(27, 20, 31, 0.15)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(245, 232, 252, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(227, 191, 248, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(211, 154, 244, 0.4)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "value": "rgba(123, 76, 150, 1)"
+      }
+    },
+    "graffiti medium": {
+      "00 base_colur_graffiti": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(123, 76, 150, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(110, 68, 134, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(143, 97, 168, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.8)",
+        "type": "color"
+      },
+      "03a text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.15)",
+        "type": "color"
+      },
+      "03b text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(222, 209, 230, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(138, 87, 168, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(138, 87, 168, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(211, 154, 244, 0.4)",
+        "type": "color"
+      },
+      "09a modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "09b modal_backgrounds (tab and search)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(243, 238, 246, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "value": "hsla(278, 32%, 35%, 1)"
+      }
+    },
+    "graffiti dark": {
+      "00 base_color_graffiti": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(123, 76, 150, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(97, 61, 118, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(131, 89, 155, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.9)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(31, 28, 34, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(116, 75, 140, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(138, 87, 168, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(143, 93, 173, 0.6)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(58, 48, 65, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "value": "hsla(278, 79%, 85%, 1)"
+      }
+    }
+  },
+  "foto": {
+    "foto light": {
+      "00 base_color_foto": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(204, 157, 164, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(237, 192, 198, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(237, 206, 211, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(27, 14, 16, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(27, 14, 16, 0.8)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(27, 14, 16, 0.1)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(245, 235, 236, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(243, 206, 212, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(233, 185, 192, 0.5)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "value": "hsla(351, 37%, 40%, 1)"
+      }
+    },
+    "foto medium": {
+      "00 base color": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(204, 157, 164, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(140, 64, 76, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(164, 75, 89, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color"
+      },
+      "03a text_toolbar (secondary text)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.75)",
+        "type": "color"
+      },
+      "03a text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 0, 0, 0.15)",
+        "type": "color"
+      },
+      "03b text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03b text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(223, 185, 191, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(203, 120, 133, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(225, 157, 168, 0.5)",
+        "type": "color"
+      },
+      "09a modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "09b modal_backgrounds (tab and search)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(245, 234, 236, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "value": "hsla(351, 37%, 40%, 1)"
+      }
+    },
+    "foto dark": {
+      "00 base_color_foto": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(204, 157, 164, 1)",
+        "type": "color"
+      },
+      "01 background_base": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(141, 73, 83, 1)",
+        "type": "color"
+      },
+      "02 background_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(168, 87, 99, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      },
+      "03 text_toolbar (toolbar icon hover)": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 0.2)",
+        "type": "color"
+      },
+      "04 background_content_light": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(49, 37, 39, 1)",
+        "type": "color"
+      },
+      "05 border_low_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(154, 80, 91, 1)",
+        "type": "color"
+      },
+      "06 border_high_contrast": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(171, 94, 105, 1)",
+        "type": "color"
+      },
+      "07 highlight_text": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(0, 96, 223, 0.2)",
+        "type": "color"
+      },
+      "08 highlight_rows": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(168, 87, 99, 0.6)",
+        "type": "color"
+      },
+      "09 modal_backgrounds": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(81, 47, 52, 1)",
+        "type": "color"
+      },
+      "10 url_details": {
+        "value": "hsla(352, 56%, 84%, 1)"
+      }
+    }
+  }
+}

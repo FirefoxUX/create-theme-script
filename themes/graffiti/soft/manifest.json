@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "firefox-graffiti-soft@mozilla.org"
+    }
+  },
+  "name": "Graffiti (Soft)",
+  "author": "Mozilla",
+  "version": "1.0",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": "hsl(278, 80%, 80%)",
+      "toolbar_field": "hsl(278, 80%, 80%)",
+      "toolbar": "hsl(278, 79%, 85%)",
+      "address_bar_box_focus": "hsl(278, 79%, 85%)",
+      "toolbar_text": "hsl(278, 22%, 10%)",
+      "tab_text": "hsl(278, 22%, 10%)",
+      "tab_background_text": "hsl(278, 22%, 10%)",
+      "toolbar_field_text": "hsl(278, 22%, 10%)",
+      "popup_text": "hsl(278, 22%, 10%)",
+      "ntp_text": "hsl(278, 22%, 10%)",
+      "sidebar_text": "hsl(278, 22%, 10%)",
+      "popup_highlight_text": "hsl(278, 22%, 10%)",
+      "ntp_background": "hsl(279, 77%, 95%)",
+      "toolbar_field_border_focus": "hsl(278, 80%, 86%)",
+      "panel_separator": "hsl(278, 80%, 86%)",
+      "popup_border": "hsl(278, 80%, 86%)",
+      "tab_line": "hsl(0, 0%, 0%)",
+      "popup_highlight": "hsla(278, 80%, 78%, 0.4)",
+      "sidebar_highlight": "hsla(278, 80%, 78%, 0.4)",
+      "panel_item_hover": "hsla(278, 80%, 78%, 0.4)",
+      "panel_item_active": "hsla(278, 80%, 78%, 0.3)",
+      "popup": "hsl(0, 0%, 100%)",
+      "sidebar": "hsl(0, 0%, 100%)",
+      "toolbar_field_focus": "hsl(0, 0%, 100%)",
+      "tab_selected": "hsl(0, 0%, 100%)",
+      "ntp_card_background": "hsl(0, 0%, 100%)",
+      "address_bar_box": "hsl(0, 0%, 100%)",
+      "url_color": "hsl(278, 33%, 44%)",
+      "zap_gradient": "transparent"
+    }
+  },
+  "theme_experiment": {
+    "colors": {
+      "panel_separator": "--panel-separator-color",
+      "address_bar_box": "--urlbar-box-bgcolor",
+      "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
+      "url_color": "--urlbar-popup-url-color",
+      "zap_gradient": "--panel-separator-zap-gradient",
+      "panel_item_hover": "--panel-item-hover-bgcolor",
+      "panel_item_active": "--panel-item-active-bgcolor"
+    }
+  }
+}

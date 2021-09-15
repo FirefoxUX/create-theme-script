@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "firefox-abstract-soft@mozilla.org"
+    }
+  },
+  "name": "Abstract (Soft)",
+  "author": "Mozilla",
+  "version": "1.0",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": "hsl(16, 100%, 75%)",
+      "toolbar_field": "hsl(16, 100%, 75%)",
+      "toolbar": "hsl(16, 100%, 82%)",
+      "address_bar_box_focus": "hsl(16, 100%, 82%)",
+      "toolbar_text": "hsl(30, 5%, 8%)",
+      "tab_text": "hsl(30, 5%, 8%)",
+      "tab_background_text": "hsl(30, 5%, 8%)",
+      "toolbar_field_text": "hsl(30, 5%, 8%)",
+      "popup_text": "hsl(30, 5%, 8%)",
+      "ntp_text": "hsl(30, 5%, 8%)",
+      "sidebar_text": "hsl(30, 5%, 8%)",
+      "popup_highlight_text": "hsl(30, 5%, 8%)",
+      "ntp_background": "hsl(16, 73%, 97%)",
+      "toolbar_field_border_focus": "hsl(15, 71%, 80%)",
+      "panel_separator": "hsl(15, 71%, 80%)",
+      "popup_border": "hsl(15, 71%, 80%)",
+      "tab_line": "hsl(0, 0%, 0%)",
+      "popup_highlight": "hsla(15, 90%, 50%, 0.2)",
+      "sidebar_highlight": "hsla(15, 90%, 50%, 0.2)",
+      "panel_item_hover": "hsla(15, 90%, 50%, 0.2)",
+      "panel_item_active": "hsla(15, 90%, 50%, 0.1)",
+      "popup": "hsl(0, 0%, 100%)",
+      "sidebar": "hsl(0, 0%, 100%)",
+      "toolbar_field_focus": "hsl(0, 0%, 100%)",
+      "tab_selected": "hsl(0, 0%, 100%)",
+      "ntp_card_background": "hsl(0, 0%, 100%)",
+      "address_bar_box": "hsl(0, 0%, 100%)",
+      "url_color": "hsl(15, 70%, 38%)",
+      "zap_gradient": "transparent"
+    }
+  },
+  "theme_experiment": {
+    "colors": {
+      "panel_separator": "--panel-separator-color",
+      "address_bar_box": "--urlbar-box-bgcolor",
+      "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
+      "url_color": "--urlbar-popup-url-color",
+      "zap_gradient": "--panel-separator-zap-gradient",
+      "panel_item_hover": "--panel-item-hover-bgcolor",
+      "panel_item_active": "--panel-item-active-bgcolor"
+    }
+  }
+}

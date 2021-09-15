@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "firefox-lush-balanced@mozilla.org"
+    }
+  },
+  "name": "Lush (Balanced)",
+  "author": "Mozilla",
+  "version": "1.0",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": "hsl(144, 16%, 30%)",
+      "toolbar_field": "hsl(120, 7%, 94%)",
+      "toolbar": "hsl(146, 15%, 36%)",
+      "address_bar_box_focus": "hsl(146, 15%, 36%)",
+      "toolbar_text": "hsl(0, 0%, 100%)",
+      "tab_text": "hsl(0, 0%, 0%)",
+      "tab_background_text": "hsl(0, 0%, 100%)",
+      "toolbar_field_text": "hsl(0, 0%, 0%)",
+      "popup_text": "hsl(0, 0%, 0%)",
+      "ntp_text": "hsl(0, 0%, 0%)",
+      "sidebar_text": "hsl(0, 0%, 0%)",
+      "popup_highlight_text": "hsl(0, 0%, 0%)",
+      "ntp_background": "hsl(140, 10%, 82%)",
+      "toolbar_field_border_focus": "hsl(145, 25%, 50%)",
+      "panel_separator": "hsl(145, 25%, 50%)",
+      "popup_border": "hsl(145, 25%, 50%)",
+      "tab_line": "hsl(140, 7%, 92%)",
+      "popup_highlight": "hsla(145, 36%, 40%, 0.3)",
+      "sidebar_highlight": "hsla(145, 36%, 40%, 0.3)",
+      "panel_item_hover": "hsla(145, 36%, 40%, 0.3)",
+      "panel_item_active": "hsla(145, 36%, 40%, 0.2)",
+      "popup": "hsl(0, 0%, 100%)",
+      "sidebar": "hsl(0, 0%, 100%)",
+      "toolbar_field_focus": "hsl(0, 0%, 100%)",
+      "tab_selected": "hsl(120, 7%, 94%)",
+      "ntp_card_background": "hsl(0, 0%, 100%)",
+      "address_bar_box": "hsl(144, 16%, 30%)",
+      "url_color": "hsl(138, 16%, 32%)",
+      "zap_gradient": "transparent"
+    }
+  },
+  "theme_experiment": {
+    "colors": {
+      "panel_separator": "--panel-separator-color",
+      "address_bar_box": "--urlbar-box-bgcolor",
+      "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
+      "url_color": "--urlbar-popup-url-color",
+      "zap_gradient": "--panel-separator-zap-gradient",
+      "panel_item_hover": "--panel-item-hover-bgcolor",
+      "panel_item_active": "--panel-item-active-bgcolor"
+    }
+  }
+}
