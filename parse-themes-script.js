@@ -181,7 +181,7 @@ try {
         });
 
         // Write the manifest file.
-        const manifestOutput = JSON.stringify(manifest, null, 2);
+        const manifestOutput = JSON.stringify(manifest, null, 2).concat('\n');
         writeFile(
           `./themes/${group}/${variantName}/manifest.json`,
           manifestOutput,
