@@ -1,0 +1,72 @@
+[
+  "firefox-lush-soft@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-lush-soft.svg",
+],
+[
+  "firefox-lush-balanced@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-lush-balanced.svg",
+],
+[
+  "firefox-lush-bold@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-lush-bold.svg",
+],
+[
+  "firefox-abstract-soft@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-abstract-soft.svg",
+],
+[
+  "firefox-abstract-balanced@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-abstract-balanced.svg",
+],
+[
+  "firefox-abstract-bold@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-abstract-bold.svg",
+],
+[
+  "firefox-elemental-soft@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-elemental-soft.svg",
+],
+[
+  "firefox-elemental-balanced@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-elemental-balanced.svg",
+],
+[
+  "firefox-elemental-bold@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-elemental-bold.svg",
+],
+[
+  "firefox-cheers-soft@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-cheers-soft.svg",
+],
+[
+  "firefox-cheers-balanced@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-cheers-balanced.svg",
+],
+[
+  "firefox-cheers-bold@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-cheers-bold.svg",
+],
+[
+  "firefox-graffiti-soft@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-graffiti-soft.svg",
+],
+[
+  "firefox-graffiti-balanced@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-graffiti-balanced.svg",
+],
+[
+  "firefox-graffiti-bold@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-graffiti-bold.svg",
+],
+[
+  "firefox-foto-soft@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-foto-soft.svg",
+],
+[
+  "firefox-foto-balanced@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-foto-balanced.svg",
+],
+[
+  "firefox-foto-bold@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-foto-bold.svg",
+]

@@ -1,6 +1,21 @@
 import { readFile, mkdir, writeFile } from "fs";
 import { colord } from "colord";
 
+let jar1Buffer = [],
+  jar1LongestString = 0;
+let jar2Buffer = [],
+  jar2LongestString = 0;
+let browserGlueBuffer = [];
+let aboutaddonsBuffer = [];
+const kVersionNumber = "1.0";
+
+// Needed to save theme previews.
+mkdir(`./themes/previews`, (err) => {
+  if (err) {
+    console.warn(`Failed to create new directory: ${err}`);
+  }
+});
+
 try {
   readFile("./input.json", "utf8", (err, data) => {
     if (err) {
@@ -10,8 +25,8 @@ try {
     let json = JSON.parse(data);
     for (let [group, themes] of Object.entries(json)) {
       for (let [name, colors] of Object.entries(themes)) {
-        let [colorName, variantName] = name.split(" ");
-        console.log(`name: ${name}`);
+        console.log(`Processing ${name}`);
+        let [colorName, variantName] = name.split("-");
         switch (variantName) {
           case "light":
             variantName = "soft";
@@ -24,19 +39,23 @@ try {
             break;
         }
         let idName = `${colorName}-${variantName}`;
-        console.log(`idname: ${idName}`);
-        let displayName =
-          `${
-            colorName[0].toLocaleUpperCase() + colorName.substring(1)
-          } (${
-            variantName[0].toLocaleUpperCase() + variantName.substring(1)
-          })`;
+        let displayName = `${
+          colorName[0].toLocaleUpperCase() + colorName.substring(1)
+        } (${variantName[0].toLocaleUpperCase() + variantName.substring(1)})`;
 
         // Color definitions.
-        const frameColor = colord(colors["01 background_base"].value).toHslString();
-        const toolbarColor = colord(colors["02 background_toolbar"].value).toHslString();
-        let darkText = colord(colors["03a text_toolbar"]?.value || colors["03 text_toolbar"].value).toHslString();
-        let brightText = colord(colors["03b text_toolbar"]?.value || colors["03 text_toolbar"].value).toHslString();
+        const frameColor = colord(
+          colors["01-background-base"].value
+        ).toHslString();
+        const toolbarColor = colord(
+          colors["02-background-toolbar"].value
+        ).toHslString();
+        let darkText = colord(
+          colors["03a-text-toolbar"]?.value || colors["03-text-toolbar"].value
+        ).toHslString();
+        let brightText = colord(
+          colors["03b-text-toolbar"]?.value || colors["03-text-toolbar"].value
+        ).toHslString();
         // Cheers (Balanced) is unusal because it flips all the text colors
         // used in the other balanced themes.
         if (idName == "cheers-balanced") {
@@ -44,96 +63,103 @@ try {
           brightText = darkText;
           darkText = temp;
         }
-        const backgroundContent = colord(colors["04 background_content_light"].value).toHslString();
-        const borderLowContrast = colord(colors["05 border_low_contrast"].value).toHslString();
-        const borderHighContrast = colord(colors["06 border_high_contrast"].value).toHslString();
-        const highlightRows = colord(colors["08 highlight_rows"].value).toHslString();
-        const modalBackgroundPrimary = colord(colors["09a modal_backgrounds"]?.value || colors["09 modal_backgrounds"].value).toHslString();
-        const modalBackgroundTabAndSearch = colord(colors["09b modal_backgrounds (tab and search)"]?.value || colors["09 modal_backgrounds"].value).toHslString();
-        const urlColor = colord(colors["10 url_details"].value).toHslString();
+        const backgroundContent = colord(
+          colors["04-background-content-light"].value
+        ).toHslString();
+        const borderLowContrast = colord(
+          colors["05-border-low-contrast"].value
+        ).toHslString();
+        const borderHighContrast = colord(
+          colors["06-border-high-contrast"].value
+        ).toHslString();
+        const highlightRows = colord(
+          colors["08-highlight-rows"].value
+        ).toHslString();
+        const modalBackgroundPrimary = colord(
+          colors["09a-modal-backgrounds"]?.value ||
+            colors["09-modal-backgrounds"].value
+        ).toHslString();
+        const modalBackgroundTabAndSearch = colord(
+          colors["09b-modal-backgrounds-tab-and-search"]?.value ||
+            colors["09-modal-backgrounds"].value
+        ).toHslString();
+        const urlColor = colord(colors["10-url-details"].value).toHslString();
 
         const toolbarFieldBackground =
-          variantName == "balanced"
-            ? modalBackgroundTabAndSearch
-            : frameColor;
+          variantName == "balanced" ? modalBackgroundTabAndSearch : frameColor;
         const chicletBackground =
-          variantName == "balanced"
-            ? frameColor
-            : modalBackgroundTabAndSearch;
-
-        const isDarkTheme = variantName == "bold" || idName == "cheers-balanced";
+          variantName == "balanced" ? frameColor : modalBackgroundTabAndSearch;
 
         // Manifest definition.
         let manifest = {
-          "manifest_version": 2,
+          manifest_version: 2,
 
-          "applications": {
-            "gecko": {
-              "id": `firefox-${idName}@mozilla.org`
-            }
+          applications: {
+            gecko: {
+              id: `firefox-${idName}@mozilla.org`,
+            },
           },
 
-          "name": displayName,
-          "author": "Mozilla",
-          "version": "1.0",
-        
-          "icons": { "32": "icon.svg" },
+          name: displayName,
+          author: "Mozilla",
+          version: kVersionNumber,
 
-          "theme": {
-            "colors": {
-              "frame": frameColor,
-              "toolbar_field": toolbarFieldBackground,
+          icons: { 32: "icon.svg" },
 
-              "toolbar": toolbarColor,
-              "address_bar_box_focus": toolbarColor,
+          theme: {
+            colors: {
+              frame: frameColor,
+              toolbar_field: toolbarFieldBackground,
 
-              "toolbar_text": brightText,
-              "tab_text": darkText,
-              "tab_background_text": brightText,
-              "toolbar_field_text": darkText,
-              "popup_text": darkText,
-              "ntp_text": darkText,
-              "sidebar_text": darkText,
-              "popup_highlight_text": darkText,
+              toolbar: toolbarColor,
+              address_bar_box_focus: toolbarColor,
 
-              "ntp_background": backgroundContent,
+              toolbar_text: brightText,
+              tab_text: darkText,
+              tab_background_text: brightText,
+              toolbar_field_text: darkText,
+              popup_text: darkText,
+              ntp_text: darkText,
+              sidebar_text: darkText,
+              popup_highlight_text: darkText,
 
-              "toolbar_field_border_focus": borderLowContrast,
-              "panel_separator": borderLowContrast,
-              "popup_border": borderLowContrast,
+              ntp_background: backgroundContent,
 
-              "tab_line": borderHighContrast,
+              toolbar_field_border_focus: borderLowContrast,
+              panel_separator: borderLowContrast,
+              popup_border: borderLowContrast,
 
-              "popup_highlight": highlightRows,
-              "sidebar_highlight": highlightRows,
-              "panel_item_hover": highlightRows,
-              "panel_item_active": colord(highlightRows).alpha(isDarkTheme
-                  ? colord(highlightRows).alpha() + 0.1
-                  : colord(highlightRows).alpha() - 0.1
-                ).toHslString(),
+              tab_line: borderHighContrast,
 
-              "popup": modalBackgroundPrimary,
-              "sidebar": modalBackgroundPrimary,
-              "toolbar_field_focus": modalBackgroundPrimary,
-              "tab_selected": modalBackgroundTabAndSearch,
-              "ntp_card_background": modalBackgroundPrimary,
-              "address_bar_box": chicletBackground,
+              popup_highlight: highlightRows,
+              sidebar_highlight: highlightRows,
+              panel_item_hover: highlightRows,
+              panel_item_active: colord(highlightRows)
+                .alpha(colord(highlightRows).alpha() + 0.15)
+                .toHslString(),
 
-              "url_color": urlColor,
-              "zap_gradient": "transparent"
-            }
+              popup: modalBackgroundPrimary,
+              sidebar: modalBackgroundPrimary,
+              toolbar_field_focus: modalBackgroundPrimary,
+              tab_selected: modalBackgroundTabAndSearch,
+              ntp_card_background: modalBackgroundPrimary,
+              address_bar_box: chicletBackground,
+
+              url_color: urlColor,
+              zap_gradient: "transparent",
+            },
           },
-          "theme_experiment": {
-            "colors": {
-              "panel_separator": "--panel-separator-color",
-              "address_bar_box": "--urlbar-box-bgcolor",
-              "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
-              "url_color": "--urlbar-popup-url-color",
-              "zap_gradient": "--panel-separator-zap-gradient",
-              "panel_item_hover": "--panel-item-hover-bgcolor",
-              "panel_item_active": "--panel-item-active-bgcolor"
-            }
-          }
+          theme_experiment: {
+            colors: {
+              panel_separator: "--panel-separator-color",
+              address_bar_box: "--urlbar-box-bgcolor",
+              address_bar_box_focus: "--urlbar-box-focus-bgcolor",
+              url_color: "--urlbar-popup-url-color",
+              zap_gradient: "--panel-separator-zap-gradient",
+              panel_item_hover: "--panel-item-hover-bgcolor",
+              panel_item_active: "--panel-item-active-bgcolor",
+            },
+          },
         };
 
         // Create the folder structure.
@@ -150,17 +176,18 @@ try {
 
         // Write the manifest file.
         const manifestOutput = JSON.stringify(manifest, null, 2);
-        writeFile(`./themes/${group}/${variantName}/manifest.json`, manifestOutput, (err) => {
-          if (err) {
-            console.log(err);
-          } else {
-            console.log(`${name} manifest written successfully.`);
+        writeFile(
+          `./themes/${group}/${variantName}/manifest.json`,
+          manifestOutput,
+          (err) => {
+            if (err) {
+              console.log(err);
+            }
           }
-        });
+        );
 
         // Create and write the icon.
-        const icon =
-        `<!-- This Source Code Form is subject to the terms of the Mozilla Public
+        const icon = `<!-- This Source Code Form is subject to the terms of the Mozilla Public
   - License, v. 2.0. If a copy of the MPL was not distributed with this
   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <svg width="63" height="62" viewBox="0 0 63 62" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -171,7 +198,7 @@ try {
       <stop offset="1" stop-color="${toolbarColor}"/>
     </linearGradient>
   </defs>
-</svg>`
+</svg>`;
         writeFile(`./themes/${group}/${variantName}/icon.svg`, icon, (err) => {
           if (err) {
             console.log(err);
@@ -179,8 +206,7 @@ try {
         });
 
         // Create and write the preview image.
-        const preview =
-          `<!-- This Source Code Form is subject to the terms of the Mozilla Public
+        const preview = `<!-- This Source Code Form is subject to the terms of the Mozilla Public
   - License, v. 2.0. If a copy of the MPL was not distributed with this
   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <svg width="680" height="92" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -197,15 +223,120 @@ try {
   <rect x="114" y="52" width="488" height="32" rx="4" fill="${toolbarFieldBackground}" />
   <circle cx="130" cy="68" r="6.25" stroke="${darkText}" stroke-width="1.5" />
   <rect x="146" y="66" width="308" height="4" rx="2" fill="${darkText}" />
-</svg>`
-        writeFile(`./themes/${group}/${variantName}/firefox-${idName}.svg`, preview, (err) => {
+</svg>`;
+        // The preview files get dumped into their own folder since that's how
+        // they're organized in-tree.
+        writeFile(`./themes/previews/firefox-${idName}.svg`, preview, (err) => {
           if (err) {
             console.log(err);
           }
         });
+
+        // Save the strings to be saved to jar.mn.
+        // browser/themes/addons/jar.mn
+        jar1Buffer.push([
+          `content/builtin-themes/monochromatic/${colorName}/${variantName}`,
+          `(monochromatic/${colorName}/${variantName}/*.svg)`,
+        ]);
+        jar1Buffer.push([
+          `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`,
+          `(monochromatic/${colorName}/${variantName}/manifest.json)`,
+        ]);
+        if (
+          `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`
+            .length > jar1LongestString
+        ) {
+          jar1LongestString =
+            `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`
+              .length;
+        }
+        // toolkit/mozapps/extensions/jar.mn
+        jar2Buffer.push([
+          `content/mozapps/extensions/previews/firefox-${idName}.svg`,
+          `(content/previews/monochromatic/firefox-${idName}.svg)`,
+        ]);
+        if (
+          `content/mozapps/extensions/previews/firefox-${idName}.svg`.length >
+          jar2LongestString
+        ) {
+          jar2LongestString =
+            `content/mozapps/extensions/previews/firefox-${idName}.svg`.length;
+        }
+
+        // Save the strings for BrowserGlue and aboutaddons.js.
+        browserGlueBuffer.push(
+          JSON.stringify(
+            {
+              id: `firefox-${idName}@mozilla.org`,
+              version: kVersionNumber,
+              path: `${colorName}/${variantName}/`,
+            },
+            null,
+            2
+          )
+        );
+        aboutaddonsBuffer.push(`[
+  "firefox-${idName}@mozilla.org",
+  "chrome://mozapps/content/extensions/previews/firefox-${idName}.svg",
+]`);
       }
     }
+
+    // Write metadata.
+    mkdir(`./themes/metadata`, (err) => {
+      if (err) {
+        console.warn(`Failed to create new directory: ${err}`);
+      }
+    });
+
+    let jar1Str = jar1Buffer
+      .map((pair) => {
+        return pair.join(" ".repeat(jar1LongestString - pair[0].length + 3));
+      })
+      .join("\n");
+    writeFile(
+      `./themes/metadata/metadatabrowser-themes-addons-jar.txt`,
+      jar1Str,
+      (err) => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
+    let jar2Str = jar2Buffer
+      .map((pair) => {
+        return pair.join(" ".repeat(jar2LongestString - pair[0].length + 3));
+      })
+      .join("\n");
+    writeFile(
+      `./themes/metadata/toolkit-mozapps-extensions-jar.txt`,
+      jar2Str,
+      (err) => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
+
+    writeFile(
+      `./themes/metadata/browser-glue.txt`,
+      browserGlueBuffer.join(",\n"),
+      (err) => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
+    writeFile(
+      `./themes/metadata/aboutaddons.txt`,
+      aboutaddonsBuffer.join(",\n"),
+      (err) => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
   });
-} catch(ex) {
+} catch (ex) {
   console.warn(`Failed to read file: ${ex}.`);
 }

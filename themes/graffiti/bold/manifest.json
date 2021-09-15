@@ -33,14 +33,14 @@
       "popup_highlight": "hsla(278, 33%, 52%, 0.6)",
       "sidebar_highlight": "hsla(278, 33%, 52%, 0.6)",
       "panel_item_hover": "hsla(278, 33%, 52%, 0.6)",
-      "panel_item_active": "hsla(278, 33%, 52%, 0.7)",
+      "panel_item_active": "hsla(278, 33%, 52%, 0.75)",
       "popup": "hsl(275, 15%, 22%)",
       "sidebar": "hsl(275, 15%, 22%)",
       "toolbar_field_focus": "hsl(275, 15%, 22%)",
       "tab_selected": "hsl(275, 15%, 22%)",
       "ntp_card_background": "hsl(275, 15%, 22%)",
       "address_bar_box": "hsl(275, 15%, 22%)",
-      "url_color": "hsl(278, 79%, 85%)",
+      "url_color": "hsl(278, 80%, 88%)",
       "zap_gradient": "transparent"
     }
   },

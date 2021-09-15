@@ -5,7 +5,8 @@
   "main": "parse-themes-script.js",
   "type": "module",
   "devDependencies": {
-    "colord": "^2.7.0"
+    "colord": "^2.7.0",
+    "prettier": "2.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

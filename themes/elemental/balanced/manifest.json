@@ -33,7 +33,7 @@
       "popup_highlight": "hsla(38, 7%, 70%, 0.6)",
       "sidebar_highlight": "hsla(38, 7%, 70%, 0.6)",
       "panel_item_hover": "hsla(38, 7%, 70%, 0.6)",
-      "panel_item_active": "hsla(38, 7%, 70%, 0.5)",
+      "panel_item_active": "hsla(38, 7%, 70%, 0.75)",
       "popup": "hsl(0, 0%, 100%)",
       "sidebar": "hsl(0, 0%, 100%)",
       "toolbar_field_focus": "hsl(0, 0%, 100%)",
