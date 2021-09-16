@@ -1,20 +1,11 @@
 import { readFile, mkdir, writeFile } from "fs";
 import { colord } from "colord";
 
-let jar1Buffer = [],
-  jar1LongestString = 0;
-let jar2Buffer = [],
-  jar2LongestString = 0;
+let jarBuffer = [],
+  jarLongestString = 0;
 let browserGlueBuffer = [];
 let aboutaddonsBuffer = [];
 const kVersionNumber = "1.0";
-
-// Needed to save theme previews.
-mkdir(`./themes/previews`, (err) => {
-  if (err) {
-    console.warn(`Failed to create new directory: ${err}`);
-  }
-});
 
 try {
   readFile("./input.json", "utf8", (err, data) => {
@@ -151,7 +142,7 @@ try {
               ntp_card_background: modalBackgroundPrimary,
               address_bar_box: chicletBackground,
 
-              url_color: urlColor,
+              address_bar_url_color: urlColor,
               zap_gradient: "transparent",
             },
           },
@@ -160,7 +151,7 @@ try {
               panel_separator: "--panel-separator-color",
               address_bar_box: "--urlbar-box-bgcolor",
               address_bar_box_focus: "--urlbar-box-focus-bgcolor",
-              url_color: "--urlbar-popup-url-color",
+              address_bar_url_color: "--urlbar-popup-url-color",
               zap_gradient: "--panel-separator-zap-gradient",
               panel_item_hover: "--panel-item-hover-bgcolor",
               panel_item_active: "--panel-item-active-bgcolor",
@@ -232,9 +223,7 @@ try {
   <rect x="146" y="66" width="308" height="4" rx="2" fill="${darkText}" />
 </svg>
 `;
-        // The preview files get dumped into their own folder since that's how
-        // they're organized in-tree.
-        writeFile(`./themes/previews/firefox-${idName}.svg`, preview, (err) => {
+        writeFile(`./themes/${group}/${variantName}/preview.svg`, preview, (err) => {
           if (err) {
             console.log(err);
           }
@@ -242,33 +231,21 @@ try {
 
         // Save the strings to be saved to jar.mn.
         // browser/themes/addons/jar.mn
-        jar1Buffer.push([
+        jarBuffer.push([
           `content/builtin-themes/monochromatic/${colorName}/${variantName}`,
           `(monochromatic/${colorName}/${variantName}/*.svg)`,
         ]);
-        jar1Buffer.push([
+        jarBuffer.push([
           `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`,
           `(monochromatic/${colorName}/${variantName}/manifest.json)`,
         ]);
         if (
           `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`
-            .length > jar1LongestString
+            .length > jarLongestString
         ) {
-          jar1LongestString =
+          jarLongestString =
             `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`
               .length;
-        }
-        // toolkit/mozapps/extensions/jar.mn
-        jar2Buffer.push([
-          `content/mozapps/extensions/previews/firefox-${idName}.svg`,
-          `(content/previews/monochromatic/firefox-${idName}.svg)`,
-        ]);
-        if (
-          `content/mozapps/extensions/previews/firefox-${idName}.svg`.length >
-          jar2LongestString
-        ) {
-          jar2LongestString =
-            `content/mozapps/extensions/previews/firefox-${idName}.svg`.length;
         }
 
         // Save the strings for BrowserGlue and aboutaddons.js.
@@ -297,28 +274,14 @@ try {
       }
     });
 
-    let jar1Str = jar1Buffer
+    let jarStr = jarBuffer
       .map((pair) => {
-        return pair.join(" ".repeat(jar1LongestString - pair[0].length + 3));
+        return pair.join(" ".repeat(jarLongestString - pair[0].length + 3));
       })
       .join("\n");
     writeFile(
-      `./themes/metadata/metadatabrowser-themes-addons-jar.txt`,
-      jar1Str,
-      (err) => {
-        if (err) {
-          console.log(err);
-        }
-      }
-    );
-    let jar2Str = jar2Buffer
-      .map((pair) => {
-        return pair.join(" ".repeat(jar2LongestString - pair[0].length + 3));
-      })
-      .join("\n");
-    writeFile(
-      `./themes/metadata/toolkit-mozapps-extensions-jar.txt`,
-      jar2Str,
+      `./themes/metadata/browser-themes-addons-jar.txt`,
+      jarStr,
       (err) => {
         if (err) {
           console.log(err);

@@ -40,7 +40,7 @@
       "tab_selected": "hsl(0, 0%, 100%)",
       "ntp_card_background": "hsl(0, 0%, 100%)",
       "address_bar_box": "hsl(0, 0%, 100%)",
-      "url_color": "hsl(15, 70%, 38%)",
+      "address_bar_url_color": "hsl(15, 70%, 38%)",
       "zap_gradient": "transparent"
     }
   },
@@ -49,7 +49,7 @@
       "panel_separator": "--panel-separator-color",
       "address_bar_box": "--urlbar-box-bgcolor",
       "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
-      "url_color": "--urlbar-popup-url-color",
+      "address_bar_url_color": "--urlbar-popup-url-color",
       "zap_gradient": "--panel-separator-zap-gradient",
       "panel_item_hover": "--panel-item-hover-bgcolor",
       "panel_item_active": "--panel-item-active-bgcolor"
