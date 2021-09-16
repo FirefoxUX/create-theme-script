@@ -137,6 +137,7 @@ try {
               // Experimental properties follow.
               address_bar_box: chicletBackground,
               address_bar_box_focus: toolbarColor,
+              address_bar_box_text: brightText,
               address_bar_url_color: urlColor,
               panel_item_hover: highlightRows,
               panel_item_active: colord(highlightRows)
@@ -149,6 +150,7 @@ try {
             colors: {
               address_bar_box: "--urlbar-box-bgcolor",
               address_bar_box_focus: "--urlbar-box-focus-bgcolor",
+              address_bar_box_text: "--urlbar-box-text-color",
               address_bar_url_color: "--urlbar-popup-url-color",
               panel_item_hover: "--panel-item-hover-bgcolor",
               panel_item_active: "--panel-item-active-bgcolor",

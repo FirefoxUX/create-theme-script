@@ -37,6 +37,7 @@
       "sidebar_highlight": "hsla(278, 80%, 78%, 0.4)",
       "address_bar_box": "hsl(278, 33%, 40%)",
       "address_bar_box_focus": "hsl(279, 29%, 52%)",
+      "address_bar_box_text": "hsl(0, 0%, 100%)",
       "address_bar_url_color": "hsl(278, 32%, 35%)",
       "panel_item_hover": "hsla(278, 80%, 78%, 0.4)",
       "panel_item_active": "hsla(278, 80%, 78%, 0.55)",
@@ -47,6 +48,7 @@
     "colors": {
       "address_bar_box": "--urlbar-box-bgcolor",
       "address_bar_box_focus": "--urlbar-box-focus-bgcolor",
+      "address_bar_box_text": "--urlbar-box-text-color",
       "address_bar_url_color": "--urlbar-popup-url-color",
       "panel_item_hover": "--panel-item-hover-bgcolor",
       "panel_item_active": "--panel-item-active-bgcolor",
