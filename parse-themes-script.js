@@ -105,56 +105,54 @@ try {
 
           theme: {
             colors: {
-              frame: frameColor,
-              toolbar_field: toolbarFieldBackground,
-
-              toolbar: toolbarColor,
-              address_bar_box_focus: toolbarColor,
-
-              toolbar_text: brightText,
-              tab_text: darkText,
               tab_background_text: brightText,
-              toolbar_field_text: darkText,
-              popup_text: darkText,
-              ntp_text: darkText,
-              sidebar_text: darkText,
-              popup_highlight_text: darkText,
-
-              ntp_background: backgroundContent,
-
-              toolbar_field_border_focus: borderLowContrast,
-              panel_separator: borderLowContrast,
-              popup_border: borderLowContrast,
-
+              tab_text: darkText,
+              tab_selected: modalBackgroundTabAndSearch,
               tab_line: borderHighContrast,
 
+              frame: frameColor,
+
+              popup: modalBackgroundPrimary,
+              popup_text: darkText,
+              popup_border: borderLowContrast,
               popup_highlight: highlightRows,
+              popup_highlight_text: darkText,
+
+              toolbar: toolbarColor,
+              toolbar_text: brightText,
+
+              toolbar_field: toolbarFieldBackground,
+              toolbar_field_text: darkText,
+              toolbar_field_focus: modalBackgroundPrimary,
+              toolbar_field_border_focus: borderLowContrast,
+
+              ntp_background: backgroundContent,
+              ntp_card_background: modalBackgroundPrimary,
+              ntp_text: darkText,
+
+              sidebar: modalBackgroundPrimary,
+              sidebar_text: darkText,
               sidebar_highlight: highlightRows,
+
+              // Experimental properties follow.
+              address_bar_box: chicletBackground,
+              address_bar_box_focus: toolbarColor,
+              address_bar_url_color: urlColor,
               panel_item_hover: highlightRows,
               panel_item_active: colord(highlightRows)
                 .alpha(colord(highlightRows).alpha() + 0.15)
                 .toHslString(),
-
-              popup: modalBackgroundPrimary,
-              sidebar: modalBackgroundPrimary,
-              toolbar_field_focus: modalBackgroundPrimary,
-              tab_selected: modalBackgroundTabAndSearch,
-              ntp_card_background: modalBackgroundPrimary,
-              address_bar_box: chicletBackground,
-
-              address_bar_url_color: urlColor,
-              zap_gradient: "transparent",
+              panel_separator: borderLowContrast,
             },
           },
           theme_experiment: {
             colors: {
-              panel_separator: "--panel-separator-color",
               address_bar_box: "--urlbar-box-bgcolor",
               address_bar_box_focus: "--urlbar-box-focus-bgcolor",
               address_bar_url_color: "--urlbar-popup-url-color",
-              zap_gradient: "--panel-separator-zap-gradient",
               panel_item_hover: "--panel-item-hover-bgcolor",
               panel_item_active: "--panel-item-active-bgcolor",
+              panel_separator: "--panel-separator-color",
             },
           },
         };
