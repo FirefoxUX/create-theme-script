@@ -260,7 +260,7 @@ try {
         );
         aboutaddonsBuffer.push(`[
   "firefox-${idName}@mozilla.org",
-  "chrome://mozapps/content/extensions/previews/firefox-${idName}.svg",
+  "resource://builtin-themes/monochromatic/${colorName}/${variantName}/preview.svg",
 ]`);
       }
     }
