@@ -32,7 +32,7 @@ try {
         let idName = `${colorName}-${variantName}`;
         let displayName = `${
           colorName[0].toLocaleUpperCase() + colorName.substring(1)
-        } (${variantName[0].toLocaleUpperCase() + variantName.substring(1)})`;
+        } – ${variantName[0].toLocaleUpperCase() + variantName.substring(1)}`;
 
         // Color definitions.
         const frameColor = colord(
