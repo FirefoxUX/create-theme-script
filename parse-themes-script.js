@@ -136,6 +136,12 @@ try {
 
               // Experimental properties follow.
               address_bar_box: chicletBackground,
+              address_bar_box_hover: colord(chicletBackground)
+                .alpha(colord(chicletBackground).alpha() + 0.05)
+                .toHslString(),
+              address_bar_box_active: colord(chicletBackground)
+                .alpha(colord(chicletBackground).alpha() + 0.1)
+                .toHslString(),
               address_bar_box_focus: toolbarColor,
               address_bar_box_text: brightText,
               address_bar_url_color: urlColor,
@@ -226,8 +232,9 @@ try {
         writeFile(`./themes/${group}/${variantName}/preview.svg`, preview, (err) => {
           if (err) {
             console.log(err);
+            }
           }
-        });
+        );
 
         // Save the strings to be saved to jar.mn.
         // browser/themes/addons/jar.mn

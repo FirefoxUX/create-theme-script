@@ -36,6 +36,8 @@
       "sidebar_text": "hsl(0, 0%, 0%)",
       "sidebar_highlight": "hsla(15, 84%, 65%, 0.3)",
       "address_bar_box": "hsl(15, 62%, 34%)",
+      "address_bar_box_hover": "hsl(15, 62%, 34%)",
+      "address_bar_box_active": "hsl(15, 62%, 34%)",
       "address_bar_box_focus": "hsl(15, 62%, 40%)",
       "address_bar_box_text": "hsl(0, 0%, 100%)",
       "address_bar_url_color": "hsl(15, 62%, 40%)",
