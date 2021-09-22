@@ -1,1584 +1,1658 @@
 {
-  "lush": {
-    "lush-light": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(132, 149, 139, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(210, 228, 218, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(233, 242, 236, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(48, 54, 51, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(48, 54, 51, 0.9)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(48, 54, 51, 0.15)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(245, 249, 247, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(217, 232, 223, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "value": "hsla(140, 8%, 85%, 1)"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(210, 228, 217, 0.7)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(62, 101, 78, 1)",
-        "type": "color"
-      }
+  "lush-light": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#84958bff"
     },
-    "lush-medium": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(132, 149, 139, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(64, 89, 74, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(78, 106, 90, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.8)",
-        "type": "color"
-      },
-      "03a-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.2)",
-        "type": "color"
-      },
-      "03b-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.25)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(205, 214, 208, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(96, 159, 122, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(233, 236, 234, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(65, 139, 96, 0.3)",
-        "type": "color"
-      },
-      "09a-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "09b-modal-backgrounds-tab-and-search": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(239, 241, 239, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(69, 95, 77, 1)",
-        "type": "color"
-      }
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#d2e4daff"
     },
-    "lush-dark": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(42, 97, 58, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(69, 95, 77, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(95, 129, 105, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(50, 52, 51, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(80, 98, 86, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(113, 132, 119, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(105, 150, 118, 0.42)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(70, 73, 71, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(203, 235, 217, 1)",
-        "type": "color"
-      }
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#e9f2ecff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#303633ff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#303633e6"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#30363326"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#f5f9f7ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#d9e8dfff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#d2e4d9b3"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#3e654eff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a5aff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#d33504ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#eb801cff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#3e654eff"
     }
   },
-  "abstract": {
-    "abstract-light": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(226, 117, 80, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 162, 128, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 188, 163, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(21, 20, 19, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(21, 20, 19, 0.85)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(21, 20, 19, 0.15)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(253, 245, 242, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(240, 186, 168, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(242, 71, 13, 0.2)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(165, 63, 29, 1)",
-        "type": "color"
-      }
+  "lush-medium": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#84958bff"
     },
-    "abstract-medium": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(230, 125, 90, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(140, 60, 33, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(165, 71, 39, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.75)",
-        "type": "color"
-      },
-      "03a-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.15)",
-        "type": "color"
-      },
-      "03b-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(224, 194, 184, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(230, 125, 90, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(252, 241, 237, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(241, 128, 91, 0.3)",
-        "type": "color"
-      },
-      "09a-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "09b-modal-backgrounds-tab-and-search": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(253, 245, 242, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(165, 71, 39, 1)",
-        "type": "color"
-      }
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#40594aff"
     },
-    "abstract-dark": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(230, 125, 90, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(45, 39, 37, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(70, 61, 57, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 205, 187, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 205, 187, 0.9)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 205, 187, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(36, 32, 30, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 204, 185, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 204, 185, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 204, 185, 0.2)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(56, 52, 51, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(250, 191, 168, 1)",
-        "type": "color"
-      }
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a5aff"
+    },
+    "03a-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03a-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000cc"
+    },
+    "03a-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#00000033"
+    },
+    "03b-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff40"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#cdd6d0ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#609f7aff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#418b604d"
+    },
+    "09a-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "09b-modal-backgrounds-tab-and-search": {
+      "description": null,
+      "type": "color",
+      "value": "#eff1efff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#455f4dff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15a-icon-status-on-dark-background": {
+      "description": null,
+      "type": "color",
+      "value": "#d2e4daff"
+    },
+    "15b-icon-status-on-light-background": {
+      "description": null,
+      "type": "color",
+      "value": "#455f4dff"
     }
   },
-  "elemental": {
-    "elemental-light": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(161, 157, 148, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(226, 225, 222, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(241, 240, 239, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(28, 27, 23, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(28, 27, 23, 0.88)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(28, 27, 23, 0.1)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(243, 243, 241, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(219, 218, 214, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(191, 188, 182, 0.4)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(103, 99, 90, 1)",
-        "type": "color"
-      }
+  "lush-dark": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#2a613aff"
     },
-    "elemental-medium": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(103, 99, 90, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(82, 78, 71, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(141, 136, 125, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.7)",
-        "type": "color"
-      },
-      "03a-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.15)",
-        "type": "color"
-      },
-      "03b-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(49, 47, 43, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(160, 156, 146, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(184, 180, 173, 0.6)",
-        "type": "color"
-      },
-      "09a-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "09b-modal-backgrounds-tab-and-search": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(236, 235, 233, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(50, 52, 51, 1)",
-        "type": "color"
-      }
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#405948ff"
     },
-    "elemental-dark": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(103, 99, 90, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(82, 78, 71, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(114, 110, 100, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.9)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(82, 78, 71, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(109, 105, 95, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(103, 99, 90, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(184, 180, 173, 0.3)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(68, 65, 59, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(231, 230, 228, 1)",
-        "type": "color"
-      }
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#5b7b65ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#323433ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#506256ff"
+    },
+    "06-border-high-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#718477ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#6996766b"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#464947ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#cbebd9ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#cbebd9ff"
     }
   },
-  "cheers": {
-    "cheers-light": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(215, 175, 80, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 210, 102, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 231, 173, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.78)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.1)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(247, 240, 222, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 195, 51, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 222, 143, 0.3)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(143, 100, 0, 1)",
-        "type": "color"
-      }
+  "abstract-light": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#e27550ff"
     },
-    "cheers-medium": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(215, 175, 80, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(250, 192, 56, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 208, 106, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.85)",
-        "type": "color"
-      },
-      "03a-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.15)",
-        "type": "color"
-      },
-      "03b-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.85)",
-        "type": "color"
-      },
-      "03b-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(23, 23, 23, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(234, 213, 164, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 197, 61, 0.22)",
-        "type": "color"
-      },
-      "09a-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(51, 51, 51, 1)",
-        "type": "color"
-      },
-      "09b-modal-backgrounds-tab-and-search": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(52, 52, 52, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(250, 192, 56, 1)",
-        "type": "color"
-      }
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#ffab8fff"
     },
-    "cheers-dark": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(215, 175, 80, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(28, 28, 28, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(61, 61, 61, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 200, 81, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 200, 81, 0.85)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(251, 200, 81, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(29, 29, 29, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(250, 192, 56, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(233, 183, 62, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(250, 192, 56, 0.2)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(52, 52, 52, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(234, 204, 134, 1)",
-        "type": "color"
-      }
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffbaa3ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#151413ff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#151413d9"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#15141326"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#fdf5f2ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#f0baa8ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#f2470d33"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#a53f1dff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a5aff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#d33504ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#996529ff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#a53f1dff"
     }
   },
-  "graffiti": {
-    "graffiti-light": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(171, 157, 179, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(215, 163, 245, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(225, 186, 247, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(27, 20, 31, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(27, 20, 31, 0.85)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(27, 20, 31, 0.15)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(245, 232, 252, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(227, 191, 248, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(211, 154, 244, 0.4)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(123, 76, 150, 1)",
-        "type": "color"
-      }
+  "abstract-medium": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#e67d5aff"
     },
-    "graffiti-medium": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(123, 76, 150, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(110, 68, 134, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(143, 97, 168, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.8)",
-        "type": "color"
-      },
-      "03a-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.15)",
-        "type": "color"
-      },
-      "03b-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(222, 209, 230, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(138, 87, 168, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(138, 87, 168, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(211, 154, 244, 0.4)",
-        "type": "color"
-      },
-      "09a-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "09b-modal-backgrounds-tab-and-search": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(243, 238, 246, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(97, 61, 118, 1)",
-        "type": "color"
-      }
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#8c3c21ff"
     },
-    "graffiti-dark": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(123, 76, 150, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(97, 61, 118, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(131, 89, 155, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.9)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(31, 28, 34, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(116, 75, 140, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(138, 87, 168, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(143, 93, 173, 0.6)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(58, 48, 65, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(231, 200, 249, 1)",
-        "type": "color"
-      }
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#a54727ff"
+    },
+    "03a-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03a-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000bf"
+    },
+    "03a-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#00000026"
+    },
+    "03b-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#e0c2b8ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#e67d5aff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#f1805b4d"
+    },
+    "09a-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "09b-modal-backgrounds-tab-and-search": {
+      "description": null,
+      "type": "color",
+      "value": "#fdf5f2ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#a54727ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff9e9eff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15a-icon-status-on-dark-background": {
+      "description": null,
+      "type": "color",
+      "value": "#ffbca3ff"
+    },
+    "15b-icon-status-on-light-background": {
+      "description": null,
+      "type": "color",
+      "value": "#a54727ff"
     }
   },
-  "foto": {
-    "foto-light": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(204, 157, 164, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(237, 192, 198, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(237, 206, 211, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(27, 14, 16, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(27, 14, 16, 0.8)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(27, 14, 16, 0.1)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(245, 235, 236, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(243, 206, 212, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(233, 185, 192, 0.5)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(140, 64, 76, 1)",
-        "type": "color"
-      }
+  "abstract-dark": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#e67d5aff"
     },
-    "foto-medium": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(204, 157, 164, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(140, 64, 76, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(164, 75, 89, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 1)",
-        "type": "color"
-      },
-      "03a-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.75)",
-        "type": "color"
-      },
-      "03a-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 0, 0, 0.15)",
-        "type": "color"
-      },
-      "03b-text-toolbar": {
-        "value": "rgba(255,255,255,1)"
-      },
-      "03b-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03b-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(223, 185, 191, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(203, 120, 133, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(225, 157, 168, 0.5)",
-        "type": "color"
-      },
-      "09a-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "09b-modal-backgrounds-tab-and-search": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(245, 234, 236, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(140, 64, 76, 1)",
-        "type": "color"
-      }
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#2d2725ff"
     },
-    "foto-dark": {
-      "00-base-color": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(204, 157, 164, 1)",
-        "type": "color"
-      },
-      "01-background-base": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(141, 73, 83, 1)",
-        "type": "color"
-      },
-      "02-background-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(168, 87, 99, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-secondary-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "03-text-toolbar-toolbar-icon-hover": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 0.2)",
-        "type": "color"
-      },
-      "04-background-content-light": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(49, 37, 39, 1)",
-        "type": "color"
-      },
-      "05-border-low-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(154, 80, 91, 1)",
-        "type": "color"
-      },
-      "06-border-high-contrast": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(171, 94, 105, 1)",
-        "type": "color"
-      },
-      "07-highlight-text": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(0, 96, 223, 0.2)",
-        "type": "color"
-      },
-      "08-highlight-rows": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(168, 87, 99, 0.6)",
-        "type": "color"
-      },
-      "09-modal-backgrounds": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(81, 47, 52, 1)",
-        "type": "color"
-      },
-      "10-url-details": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(244, 215, 219, 1)",
-        "type": "color"
-      }
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#463d39ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#fbcbbbff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#fbcbbbe6"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#fbcbbb33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#24201eff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#ffcbb9ff"
+    },
+    "06-border-high-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#ffcbb9ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#ffcbb933"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#383433ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#fabda8ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#e5ac99ff"
+    }
+  },
+  "elemental-light": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#a19d94ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#e2e1deff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#f1f0efff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#1c1b17ff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#1c1b17e0"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#1c1b171a"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#f3f3f1ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#dbdad6ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#bfbcb666"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#67635aff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a5aff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#d33504ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#eb801cff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#67635aff"
+    }
+  },
+  "elemental-medium": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#67635aff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#524e47ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#6d695fff"
+    },
+    "03a-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03a-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000b3"
+    },
+    "03a-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#00000026"
+    },
+    "03b-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#312f2bff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#a09c92ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#948f8566"
+    },
+    "09a-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "09b-modal-backgrounds-tab-and-search": {
+      "description": null,
+      "type": "color",
+      "value": "#ecebe9ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#575b59ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15a-icon-status-on-dark-background": {
+      "description": null,
+      "type": "color",
+      "value": "#dcdad6ff"
+    },
+    "15b-icon-status-on-light-background": {
+      "description": null,
+      "type": "color",
+      "value": "#312f2bff"
+    }
+  },
+  "elemental-dark": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#67635aff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#524e47ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#726e64ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffe6"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#524e47ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#6d695fff"
+    },
+    "06-border-high-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#67635aff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#b8b4ad4d"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#44413bff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#e7e6e4ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffb8b8ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#edc431ff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#e2e1deff"
+    }
+  },
+  "cheers-light": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#d7af50ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#ffd266ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffe7adff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000c7"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#0000001a"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#f7f0deff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#ffc333ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#ffde8fe6"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#805900ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a56ff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#d33504ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ca6b12ff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#996b00ff"
+    }
+  },
+  "cheers-medium": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#d7af50ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#fac038ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#fbd06aff"
+    },
+    "03a-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03a-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000d9"
+    },
+    "03a-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#00000026"
+    },
+    "03b-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffd9"
+    },
+    "03b-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#171717ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#ead5a4ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#ffc53d38"
+    },
+    "09a-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#333333ff"
+    },
+    "09b-modal-backgrounds-tab-and-search": {
+      "description": null,
+      "type": "color",
+      "value": "#343434ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#fac038ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a56ff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#cd3304ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#8f6400ff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15a-icon-status-on-dark-background": {
+      "description": null,
+      "type": "color",
+      "value": "#8a6100ff"
+    },
+    "15b-icon-status-on-light-background": {
+      "description": null,
+      "type": "color",
+      "value": "#fac038ff"
+    }
+  },
+  "cheers-dark": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#d7af50ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#1c1c1cff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#333333ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#fbc851ff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#fbc851d9"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#fbc85133"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#1d1d1dff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#fac038ff"
+    },
+    "06-border-high-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#e9b73eff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#fac03833"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#292929ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#eacc86ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#eacc86ff"
+    }
+  },
+  "graffiti-light": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#ab9db3ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#e1baf7ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#e7c8f9ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#1b141fff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#1b141fd9"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#1b141f26"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#f5e8fcff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#e3bff8ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#d39af466"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#7b4c96ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a5aff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#d33504ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#956228ff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#7b4c96ff"
+    }
+  },
+  "graffiti-medium": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#7b4c96ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#6e4486ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#8f61a8ff"
+    },
+    "03a-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03a-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000cc"
+    },
+    "03a-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#00000026"
+    },
+    "03b-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#ded1e6ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#8a57a8ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#d39af466"
+    },
+    "09a-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "09b-modal-backgrounds-tab-and-search": {
+      "description": null,
+      "type": "color",
+      "value": "#f3eef6ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#613d76ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdc5cff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15a-icon-status-on-dark-background": {
+      "description": null,
+      "type": "color",
+      "value": "#f5e8fcff"
+    },
+    "15b-icon-status-on-light-background": {
+      "description": null,
+      "type": "color",
+      "value": "#613d76ff"
+    }
+  },
+  "graffiti-dark": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#7b4c96ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#4e315eff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#6d4a82ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffe6"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#1f1c22ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#744b8cff"
+    },
+    "06-border-high-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#8a57a8ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#8f5dad99"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#3a3041ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#e7c8f9ff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#e1baf7ff"
+    }
+  },
+  "foto-light": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#cc9da4ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#edc0c6ff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#edced3ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#1b0e10ff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#1b0e10cc"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#1b0e101a"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#f5ebecff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#f3ced4ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#e9b9c080"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#8c404cff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#4e6a5aff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#d33504ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#b8610fff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#125c8bff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#8d4953ff"
+    }
+  },
+  "foto-medium": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#cc9da4ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#8c404cff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#a44b59ff"
+    },
+    "03a-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#000000ff"
+    },
+    "03a-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#000000bf"
+    },
+    "03a-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#00000026"
+    },
+    "03b-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03b-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#dfb9bfff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#cb7885ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#e19da880"
+    },
+    "09a-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "09b-modal-backgrounds-tab-and-search": {
+      "description": null,
+      "type": "color",
+      "value": "#f5eaecff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#8c404cff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ff8c8cff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15a-icon-status-on-dark-background": {
+      "description": null,
+      "type": "color",
+      "value": "#edc0c6ff"
+    },
+    "15b-icon-status-on-light-background": {
+      "description": null,
+      "type": "color",
+      "value": "#8c404cff"
+    }
+  },
+  "foto-dark": {
+    "00-base-color": {
+      "description": null,
+      "type": "color",
+      "value": "#cc9da4ff"
+    },
+    "01-background-base": {
+      "description": null,
+      "type": "color",
+      "value": "#65343cff"
+    },
+    "02-background-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#8d4953ff"
+    },
+    "03-text-toolbar": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03-text-toolbar-secondary-text": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "03-text-toolbar-toolbar-icon-hover": {
+      "description": null,
+      "type": "color",
+      "value": "#ffffff33"
+    },
+    "04-background-content-light": {
+      "description": null,
+      "type": "color",
+      "value": "#312527ff"
+    },
+    "05-border-low-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#9a505bff"
+    },
+    "06-border-high-contrast": {
+      "description": null,
+      "type": "color",
+      "value": "#ab5e69ff"
+    },
+    "08-highlight-rows": {
+      "description": null,
+      "type": "color",
+      "value": "#a8576399"
+    },
+    "09-modal-backgrounds": {
+      "description": null,
+      "type": "color",
+      "value": "#512f34ff"
+    },
+    "10-url-details": {
+      "description": null,
+      "type": "color",
+      "value": "#f4d7dcff"
+    },
+    "11-update-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#adff6dff"
+    },
+    "12-critical-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffb8b8ff"
+    },
+    "13-warning-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#ffdb5aff"
+    },
+    "14-information-alert": {
+      "description": null,
+      "type": "color",
+      "value": "#6dffedff"
+    },
+    "15-icon-status": {
+      "description": null,
+      "type": "color",
+      "value": "#edc0c6ff"
     }
   }
 }

@@ -14,8 +14,7 @@ try {
     }
 
     let json = JSON.parse(data);
-    for (let [group, themes] of Object.entries(json)) {
-      for (let [name, colors] of Object.entries(themes)) {
+      for (let [name, colors] of Object.entries(json)) {
         console.log(`Processing ${name}`);
         let [colorName, variantName] = name.split("-");
         switch (variantName) {
@@ -61,13 +60,9 @@ try {
           colors["05-border-low-contrast"].value
         ).toHslString();
         let borderHighContrast = colord(
-          colors["06-border-high-contrast"].value
+          colors["06-border-high-contrast"]?.value || "transparent"
         ).toHslString();
-        // Even though border-high-contrast is defined for most themes, it
-        // shouldn't be used in Soft and Balanced themes.
-        if (variantName != "bold") {
-          borderHighContrast = "transparent";
-        }
+
         // Ignore 07-highlight-row, since the default color is used.
         const highlightRows = colord(
           colors["08-highlight-rows"].value
@@ -81,6 +76,13 @@ try {
             colors["09-modal-backgrounds"].value
         ).toHslString();
         const urlColor = colord(colors["10-url-details"].value).toHslString();
+
+        const alertUpdate = colord(colors["11-update-alert"].value).toHslString();
+        const alertCritical = colord(colors["12-critical-alert"].value).toHslString();
+        const alertWarning = colord(colors["13-warning-alert"].value).toHslString();
+        const alertInfo = colord(colors["14-information-alert"].value).toHslString();
+        const attentionDarkBg = colord(colors["15-icon-status"]?.value || colors["15a-icon-status-on-dark-background"].value).toHslString();
+        const attentionLightBg = colord(colors["15-icon-status"]?.value || colors["15b-icon-status-on-light-background"].value).toHslString();
 
         const toolbarFieldBackground =
           variantName == "balanced" ? modalBackgroundTabAndSearch : frameColor;
@@ -109,6 +111,8 @@ try {
               tab_text: darkText,
               tab_selected: modalBackgroundTabAndSearch,
               tab_line: borderHighContrast,
+              tab_loading: attentionLightBg,
+              tab_loading_inactive: attentionDarkBg,
 
               frame: frameColor,
 
@@ -150,6 +154,15 @@ try {
                 .alpha(colord(highlightRows).alpha() + 0.15)
                 .toHslString(),
               panel_separator: borderLowContrast,
+
+              icons_attention: attentionDarkBg,
+              toolbar_field_icons_attention: attentionLightBg,
+
+              tab_attention_dot: alertUpdate,
+
+              appmenu_update_icon_color: alertUpdate,
+              appmenu_info_icon_color: alertInfo,
+
             },
           },
           theme_experiment: {
@@ -163,17 +176,22 @@ try {
               panel_item_hover: "--panel-item-hover-bgcolor",
               panel_item_active: "--panel-item-active-bgcolor",
               panel_separator: "--panel-separator-color",
+              toolbar_field_icons_attention: "--lwt-toolbar-field-icon-fill-attention",
+              tab_attention_dot: "--lwt-tab-attention-icon-color",
+              appmenu_update_icon_color: "--panel-banner-item-update-supported-bgcolor",
+              appmenu_info_icon_color: "--panel-banner-item-info-icon-bgcolor",
+              tab_loading_inactive: "--lwt-tab-loading-fill-inactive"
             },
           },
         };
 
         // Create the folder structure.
-        mkdir(`./themes/${group}`, (err) => {
+        mkdir(`./themes/${colorName}`, (err) => {
           if (err) {
             console.warn(`Failed to create new directory: ${err}`);
           }
         });
-        mkdir(`./themes/${group}/${variantName}`, (err) => {
+        mkdir(`./themes/${colorName}/${variantName}`, (err) => {
           if (err) {
             console.warn(`Failed to create new directory: ${err}`);
           }
@@ -182,7 +200,7 @@ try {
         // Write the manifest file.
         const manifestOutput = JSON.stringify(manifest, null, 2).concat('\n');
         writeFile(
-          `./themes/${group}/${variantName}/manifest.json`,
+          `./themes/${colorName}/${variantName}/manifest.json`,
           manifestOutput,
           (err) => {
             if (err) {
@@ -205,7 +223,7 @@ try {
   </defs>
 </svg>
 `;
-        writeFile(`./themes/${group}/${variantName}/icon.svg`, icon, (err) => {
+        writeFile(`./themes/${colorName}/${variantName}/icon.svg`, icon, (err) => {
           if (err) {
             console.log(err);
           }
@@ -231,7 +249,7 @@ try {
   <rect x="146" y="66" width="308" height="4" rx="2" fill="${darkText}" />
 </svg>
 `;
-        writeFile(`./themes/${group}/${variantName}/preview.svg`, preview, (err) => {
+        writeFile(`./themes/${colorName}/${variantName}/preview.svg`, preview, (err) => {
           if (err) {
             console.log(err);
             }
@@ -274,7 +292,6 @@ try {
   "resource://builtin-themes/monochromatic/${colorName}/${variantName}/preview.svg",
 ]`);
       }
-    }
 
     // Write metadata.
     mkdir(`./themes/metadata`, (err) => {
