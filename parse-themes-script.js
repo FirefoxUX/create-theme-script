@@ -137,10 +137,10 @@ try {
               // Experimental properties follow.
               address_bar_box: chicletBackground,
               address_bar_box_hover: colord(chicletBackground)
-                .alpha(colord(chicletBackground).alpha() + 0.05)
+                .alpha(colord(chicletBackground).alpha() - 0.2)
                 .toHslString(),
               address_bar_box_active: colord(chicletBackground)
-                .alpha(colord(chicletBackground).alpha() + 0.1)
+                .alpha(colord(chicletBackground).alpha() - 0.35)
                 .toHslString(),
               address_bar_box_focus: toolbarColor,
               address_bar_box_text: brightText,
@@ -155,6 +155,8 @@ try {
           theme_experiment: {
             colors: {
               address_bar_box: "--urlbar-box-bgcolor",
+              address_bar_box_hover: "--urlbar-box-hover-bgcolor",
+              address_bar_box_active: "--urlbar-box-active-bgcolor",
               address_bar_box_focus: "--urlbar-box-focus-bgcolor",
               address_bar_box_text: "--urlbar-box-text-color",
               address_bar_url_color: "--urlbar-popup-url-color",
