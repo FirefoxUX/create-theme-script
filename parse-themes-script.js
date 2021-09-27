@@ -249,11 +249,11 @@ try {
         // Save the strings for BrowserGlue and aboutaddons.js.
         browserGlueBuffer.push(
           JSON.stringify(
+            [ `firefox-${idName}@mozilla.org`,
             {
-              id: `firefox-${idName}@mozilla.org`,
               version: kVersionNumber,
-              path: `${colorName}/${variantName}/`,
-            },
+              path: `monochromatic/${colorName}/${variantName}/`,
+            }],
             null,
             2
           )
