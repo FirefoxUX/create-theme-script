@@ -3,6 +3,7 @@ This is a tool for personal use to convert a Figma color export to WebExtension 
 input.json is pulled from https://github.com/FirefoxUX/themes/blob/main/tokens/color/base.json and lightly edited.
 
 To run this script:
+
 ```
 npm install
 node parse-theme-script.js
