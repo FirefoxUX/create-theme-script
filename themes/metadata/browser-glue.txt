@@ -1,124 +1,124 @@
 [
-  "firefox-lush-soft@mozilla.org",
+  "lush-soft-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/lush/soft/"
   }
 ],
 [
-  "firefox-lush-balanced@mozilla.org",
+  "lush-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/lush/balanced/"
   }
 ],
 [
-  "firefox-lush-bold@mozilla.org",
+  "lush-bold-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/lush/bold/"
   }
 ],
 [
-  "firefox-abstract-soft@mozilla.org",
+  "abstract-soft-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/abstract/soft/"
   }
 ],
 [
-  "firefox-abstract-balanced@mozilla.org",
+  "abstract-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/abstract/balanced/"
   }
 ],
 [
-  "firefox-abstract-bold@mozilla.org",
+  "abstract-bold-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/abstract/bold/"
   }
 ],
 [
-  "firefox-elemental-soft@mozilla.org",
+  "elemental-soft-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/elemental/soft/"
   }
 ],
 [
-  "firefox-elemental-balanced@mozilla.org",
+  "elemental-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/elemental/balanced/"
   }
 ],
 [
-  "firefox-elemental-bold@mozilla.org",
+  "elemental-bold-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/elemental/bold/"
   }
 ],
 [
-  "firefox-cheers-soft@mozilla.org",
+  "cheers-soft-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/cheers/soft/"
   }
 ],
 [
-  "firefox-cheers-balanced@mozilla.org",
+  "cheers-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/cheers/balanced/"
   }
 ],
 [
-  "firefox-cheers-bold@mozilla.org",
+  "cheers-bold-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/cheers/bold/"
   }
 ],
 [
-  "firefox-graffiti-soft@mozilla.org",
+  "graffiti-soft-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/graffiti/soft/"
   }
 ],
 [
-  "firefox-graffiti-balanced@mozilla.org",
+  "graffiti-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/graffiti/balanced/"
   }
 ],
 [
-  "firefox-graffiti-bold@mozilla.org",
+  "graffiti-bold-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/graffiti/bold/"
   }
 ],
 [
-  "firefox-foto-soft@mozilla.org",
+  "foto-soft-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/foto/soft/"
   }
 ],
 [
-  "firefox-foto-balanced@mozilla.org",
+  "foto-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/foto/balanced/"
   }
 ],
 [
-  "firefox-foto-bold@mozilla.org",
+  "foto-bold-colorway@mozilla.org",
   {
     "version": "1.0",
     "path": "monochromatic/foto/bold/"

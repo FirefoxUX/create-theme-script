@@ -95,7 +95,7 @@ try {
 
           applications: {
             gecko: {
-              id: `firefox-${idName}@mozilla.org`,
+              id: `${idName}-colorway@mozilla.org`,
             },
           },
 
@@ -278,7 +278,7 @@ try {
         // Save the strings for BrowserGlue and aboutaddons.js.
         browserGlueBuffer.push(
           JSON.stringify(
-            [ `firefox-${idName}@mozilla.org`,
+            [ `${idName}-colorway@mozilla.org`,
             {
               version: kVersionNumber,
               path: `monochromatic/${colorName}/${variantName}/`,
@@ -288,7 +288,7 @@ try {
           )
         );
         aboutaddonsBuffer.push(`[
-  "firefox-${idName}@mozilla.org",
+  "${idName}-colorway@mozilla.org",
   "resource://builtin-themes/monochromatic/${colorName}/${variantName}/preview.svg",
 ]`);
       }
