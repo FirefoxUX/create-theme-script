@@ -289,7 +289,7 @@
     "02-background-toolbar": {
       "description": null,
       "type": "color",
-      "value": "#ffbaa3ff"
+      "value": "hsla(15, 100%, 86%, 1)"
     },
     "03-text-toolbar": {
       "description": null,
@@ -754,7 +754,7 @@
     "02-background-toolbar": {
       "description": null,
       "type": "color",
-      "value": "#726e64ff"
+      "value": "hsla(42, 6%, 43%, 1)"
     },
     "03-text-toolbar": {
       "description": null,
@@ -1117,7 +1117,7 @@
     "02-background-toolbar": {
       "description": null,
       "type": "color",
-      "value": "#e7c8f9ff"
+      "value": "hsla(278, 80%, 91%, 1)"
     },
     "03-text-toolbar": {
       "description": null,
@@ -1393,7 +1393,7 @@
     "02-background-toolbar": {
       "description": null,
       "type": "color",
-      "value": "#edced3ff"
+      "value": "hsla(351, 47%, 89%, 1)"
     },
     "03-text-toolbar": {
       "description": null,
