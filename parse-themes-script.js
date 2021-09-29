@@ -140,6 +140,7 @@ function writeManifest(data) {
           sidebar: modalBackgroundPrimary,
           sidebar_text: darkText,
           sidebar_highlight: highlightRows,
+          sidebar_highlight_text: darkText,
 
           // Experimental properties follow.
           address_bar_box: chicletBackground,
