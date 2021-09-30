@@ -87,6 +87,19 @@ function writeManifest(data) {
         colors["15b-icon-status-on-light-background"].value
     ).toHslString();
 
+    let toolbarFieldFocusBorder;
+    switch (variantName) {
+      case "soft":
+        toolbarFieldFocusBorder = "rgba(0, 96, 223, 0.5)";
+        break;
+      case "balanced":
+        toolbarFieldFocusBorder = "rgba(0, 179, 244, 1)"
+        break;
+      case "bold":
+        toolbarFieldFocusBorder = "rgba(0, 221, 255, 0.7)";
+        break;
+    }
+
     const toolbarFieldBackground =
       variantName == "balanced" ? modalBackgroundTabAndSearch : frameColor;
     const chicletBackground =
@@ -131,7 +144,7 @@ function writeManifest(data) {
           toolbar_field: toolbarFieldBackground,
           toolbar_field_text: darkText,
           toolbar_field_focus: modalBackgroundPrimary,
-          toolbar_field_border_focus: borderLowContrast,
+          toolbar_field_border_focus: toolbarFieldFocusBorder,
 
           ntp_background: backgroundContent,
           ntp_card_background: modalBackgroundPrimary,
