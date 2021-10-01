@@ -145,6 +145,7 @@ function writeManifest(data) {
           toolbar_field_text: darkText,
           toolbar_field_focus: modalBackgroundPrimary,
           toolbar_field_border_focus: toolbarFieldFocusBorder,
+          toolbar_bottom_separator: frameColor,
 
           ntp_background: backgroundContent,
           ntp_card_background: modalBackgroundPrimary,
