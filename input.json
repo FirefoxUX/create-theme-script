@@ -682,7 +682,7 @@
     "04-background-content-light": {
       "description": null,
       "type": "color",
-      "value": "#312f2bff"
+      "value": "hsla(42, 8%, 78%, 1)"
     },
     "05-border-low-contrast": {
       "description": null,
