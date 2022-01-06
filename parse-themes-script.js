@@ -3,30 +3,19 @@ import { colord } from "colord";
 
 let jarBuffer = [],
   jarLongestString = 0;
-let browserGlueBuffer = [];
-let aboutaddonsBuffer = [];
+let builtInThemeConfigBuffer = [];
 const kVersionNumber = "1.0";
+const kExpiryDate = "2022-03-08";
 
 function writeManifest(data) {
   let json = JSON.parse(data);
   for (let [name, colors] of Object.entries(json)) {
     console.log(`Processing ${name}`);
-    let [colorName, variantName] = name.split("-");
-    switch (variantName) {
-      case "light":
-        variantName = "soft";
-        break;
-      case "medium":
-        variantName = "balanced";
-        break;
-      case "dark":
-        variantName = "bold";
-        break;
-    }
-    let idName = `${colorName}-${variantName}`;
+    let [colorName] = name.split("-");
+    let idName = `${colorName}`;
     let displayName = `${
       colorName[0].toLocaleUpperCase() + colorName.substring(1)
-    } – ${variantName[0].toLocaleUpperCase() + variantName.substring(1)}`;
+    }`;
 
     // Color definitions.
     const frameColor = colord(colors["01-background-base"].value).toHslString();
@@ -87,23 +76,10 @@ function writeManifest(data) {
         colors["15b-icon-status-on-light-background"].value
     ).toHslString();
 
-    let toolbarFieldFocusBorder;
-    switch (variantName) {
-      case "soft":
-        toolbarFieldFocusBorder = "rgba(0, 96, 223, 0.5)";
-        break;
-      case "balanced":
-        toolbarFieldFocusBorder = "rgba(0, 179, 244, 1)"
-        break;
-      case "bold":
-        toolbarFieldFocusBorder = "rgba(0, 221, 255, 0.7)";
-        break;
-    }
+    let toolbarFieldFocusBorder = "rgba(0, 96, 223, 0.5)";
 
-    const toolbarFieldBackground =
-      variantName == "balanced" ? modalBackgroundTabAndSearch : frameColor;
-    const chicletBackground =
-      variantName == "balanced" ? frameColor : modalBackgroundTabAndSearch;
+    const toolbarFieldBackground = frameColor;
+    const chicletBackground = modalBackgroundTabAndSearch;
 
     // Manifest definition.
     let manifest = {
@@ -120,7 +96,6 @@ function writeManifest(data) {
       version: kVersionNumber,
 
       icons: { 32: "icon.svg" },
-
       theme: {
         colors: {
           tab_background_text: brightText,
@@ -210,7 +185,7 @@ function writeManifest(data) {
         console.warn(`Failed to create new directory: ${err}`);
       }
     });
-    mkdir(`./themes/${colorName}/${variantName}`, (err) => {
+    mkdir(`./themes/${colorName}`, (err) => {
       if (err) {
         console.warn(`Failed to create new directory: ${err}`);
       }
@@ -219,7 +194,7 @@ function writeManifest(data) {
     // Write the manifest file.
     const manifestOutput = JSON.stringify(manifest, null, 2).concat("\n");
     writeFile(
-      `./themes/${colorName}/${variantName}/manifest.json`,
+      `./themes/${colorName}/manifest.json`,
       manifestOutput,
       (err) => {
         if (err) {
@@ -242,7 +217,7 @@ function writeManifest(data) {
   </defs>
 </svg>
 `;
-    writeFile(`./themes/${colorName}/${variantName}/icon.svg`, icon, (err) => {
+    writeFile(`./themes/${colorName}/icon.svg`, icon, (err) => {
       if (err) {
         console.log(err);
       }
@@ -307,7 +282,7 @@ function writeManifest(data) {
 </svg>
 `;
     writeFile(
-      `./themes/${colorName}/${variantName}/preview.svg`,
+      `./themes/${colorName}/preview.svg`,
       preview,
       (err) => {
         if (err) {
@@ -319,40 +294,37 @@ function writeManifest(data) {
     // Save the strings to be saved to jar.mn.
     // browser/themes/addons/jar.mn
     jarBuffer.push([
-      `content/builtin-themes/monochromatic/${colorName}/${variantName}`,
-      `(monochromatic/${colorName}/${variantName}/*.svg)`,
+      `content/builtin-themes/monochromatic/${colorName}`,
+      `(monochromatic/${colorName}/*.svg)`,
     ]);
     jarBuffer.push([
-      `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`,
-      `(monochromatic/${colorName}/${variantName}/manifest.json)`,
+      `content/builtin-themes/monochromatic/${colorName}/manifest.json`,
+      `(monochromatic/${colorName}/manifest.json)`,
     ]);
     if (
-      `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`
+      `content/builtin-themes/monochromatic/${colorName}/manifest.json`
         .length > jarLongestString
     ) {
       jarLongestString =
-        `content/builtin-themes/monochromatic/${colorName}/${variantName}/manifest.json`
+        `content/builtin-themes/monochromatic/${colorName}/manifest.json`
           .length;
     }
 
-    // Save the strings for BrowserGlue and aboutaddons.js.
-    browserGlueBuffer.push(
+    // Save the strings for BuiltInThemeConfig.
+    builtInThemeConfigBuffer.push(
       JSON.stringify(
         [
           `${idName}-colorway@mozilla.org`,
           {
             version: kVersionNumber,
-            path: `monochromatic/${colorName}/${variantName}/`,
+            path: `resource://builtin-themes/monochromatic/${colorName}/`,
+            expiry: kExpiryDate,
           },
         ],
         null,
         2
       )
     );
-    aboutaddonsBuffer.push(`[
-  "${idName}-colorway@mozilla.org",
-  "resource://builtin-themes/monochromatic/${colorName}/${variantName}/preview.svg",
-]`);
   }
 
   // Write metadata.
@@ -378,17 +350,8 @@ function writeManifest(data) {
   );
 
   writeFile(
-    `./themes/metadata/browser-glue.txt`,
-    browserGlueBuffer.join(",\n"),
-    (err) => {
-      if (err) {
-        console.log(err);
-      }
-    }
-  );
-  writeFile(
-    `./themes/metadata/aboutaddons.txt`,
-    aboutaddonsBuffer.join(",\n"),
+    `./themes/metadata/builtinthemeconfig.txt`,
+    builtInThemeConfigBuffer.join(",\n"),
     (err) => {
       if (err) {
         console.log(err);

@@ -1,0 +1,48 @@
+[
+  "red-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "resource://builtin-themes/monochromatic/red/",
+    "expiry": "2022-03-08"
+  }
+],
+[
+  "orange-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "resource://builtin-themes/monochromatic/orange/",
+    "expiry": "2022-03-08"
+  }
+],
+[
+  "green-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "resource://builtin-themes/monochromatic/green/",
+    "expiry": "2022-03-08"
+  }
+],
+[
+  "yellow-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "resource://builtin-themes/monochromatic/yellow/",
+    "expiry": "2022-03-08"
+  }
+],
+[
+  "purple-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "resource://builtin-themes/monochromatic/purple/",
+    "expiry": "2022-03-08"
+  }
+],
+[
+  "blue-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "resource://builtin-themes/monochromatic/blue/",
+    "expiry": "2022-03-08"
+  }
+]
