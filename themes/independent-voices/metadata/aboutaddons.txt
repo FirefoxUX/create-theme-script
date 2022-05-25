@@ -1,0 +1,72 @@
+[
+  "playmaker-soft-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/playmaker/soft/preview.svg",
+],
+[
+  "playmaker-balanced-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/playmaker/balanced/preview.svg",
+],
+[
+  "playmaker-bold-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/playmaker/bold/preview.svg",
+],
+[
+  "expressionist-soft-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/expressionist/soft/preview.svg",
+],
+[
+  "expressionist-balanced-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/expressionist/balanced/preview.svg",
+],
+[
+  "expressionist-bold-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/expressionist/bold/preview.svg",
+],
+[
+  "visionary-soft-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/visionary/soft/preview.svg",
+],
+[
+  "visionary-balanced-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/visionary/balanced/preview.svg",
+],
+[
+  "visionary-bold-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/visionary/bold/preview.svg",
+],
+[
+  "activist-soft-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/activist/soft/preview.svg",
+],
+[
+  "activist-balanced-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/activist/balanced/preview.svg",
+],
+[
+  "activist-bold-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/activist/bold/preview.svg",
+],
+[
+  "dreamer-soft-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/dreamer/soft/preview.svg",
+],
+[
+  "dreamer-balanced-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/dreamer/balanced/preview.svg",
+],
+[
+  "dreamer-bold-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/dreamer/bold/preview.svg",
+],
+[
+  "innovator-soft-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/innovator/soft/preview.svg",
+],
+[
+  "innovator-balanced-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/innovator/balanced/preview.svg",
+],
+[
+  "innovator-bold-colorway@mozilla.org",
+  "resource://builtin-themes/monochromatic/innovator/bold/preview.svg",
+]

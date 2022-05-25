@@ -205,12 +205,12 @@ function writeManifest(data) {
     };
 
     // Create the folder structure.
-    mkdir(`./themes/${colorName}`, (err) => {
+    mkdir(`./themes/independent-voices/${colorName}`, (err) => {
       if (err) {
         console.warn(`Failed to create new directory: ${err}`);
       }
     });
-    mkdir(`./themes/${colorName}/${variantName}`, (err) => {
+    mkdir(`./themes/independent-voices/${colorName}/${variantName}`, (err) => {
       if (err) {
         console.warn(`Failed to create new directory: ${err}`);
       }
@@ -219,7 +219,7 @@ function writeManifest(data) {
     // Write the manifest file.
     const manifestOutput = JSON.stringify(manifest, null, 2).concat("\n");
     writeFile(
-      `./themes/${colorName}/${variantName}/manifest.json`,
+      `./themes/independent-voices/${colorName}/${variantName}/manifest.json`,
       manifestOutput,
       (err) => {
         if (err) {
@@ -242,7 +242,7 @@ function writeManifest(data) {
   </defs>
 </svg>
 `;
-    writeFile(`./themes/${colorName}/${variantName}/icon.svg`, icon, (err) => {
+    writeFile(`./themes/independent-voices/${colorName}/${variantName}/icon.svg`, icon, (err) => {
       if (err) {
         console.log(err);
       }
@@ -307,7 +307,7 @@ function writeManifest(data) {
 </svg>
 `;
     writeFile(
-      `./themes/${colorName}/${variantName}/preview.svg`,
+      `./themes/independent-voices/${colorName}/${variantName}/preview.svg`,
       preview,
       (err) => {
         if (err) {
@@ -317,7 +317,7 @@ function writeManifest(data) {
     );
 
     // Save the strings to be saved to jar.mn.
-    // browser/themes/addons/jar.mn
+    // browser/themes/independent-voices/addons/jar.mn
     jarBuffer.push([
       `content/builtin-themes/monochromatic/${colorName}/${variantName}`,
       `(monochromatic/${colorName}/${variantName}/*.svg)`,
@@ -356,7 +356,7 @@ function writeManifest(data) {
   }
 
   // Write metadata.
-  mkdir(`./themes/metadata`, (err) => {
+  mkdir(`./themes/independent-voices/metadata`, (err) => {
     if (err) {
       console.warn(`Failed to create new directory: ${err}`);
     }
@@ -368,7 +368,7 @@ function writeManifest(data) {
     })
     .join("\n");
   writeFile(
-    `./themes/metadata/browser-themes-addons-jar.txt`,
+    `./themes/independent-voices/metadata/browser-themes-addons-jar.txt`,
     jarStr,
     (err) => {
       if (err) {
@@ -378,7 +378,7 @@ function writeManifest(data) {
   );
 
   writeFile(
-    `./themes/metadata/browser-glue.txt`,
+    `./themes/independent-voices/metadata/browser-glue.txt`,
     browserGlueBuffer.join(",\n"),
     (err) => {
       if (err) {
@@ -387,7 +387,7 @@ function writeManifest(data) {
     }
   );
   writeFile(
-    `./themes/metadata/aboutaddons.txt`,
+    `./themes/independent-voices/metadata/aboutaddons.txt`,
     aboutaddonsBuffer.join(",\n"),
     (err) => {
       if (err) {

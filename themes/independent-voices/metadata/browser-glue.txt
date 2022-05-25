@@ -1,0 +1,126 @@
+[
+  "playmaker-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/playmaker/soft/"
+  }
+],
+[
+  "playmaker-balanced-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/playmaker/balanced/"
+  }
+],
+[
+  "playmaker-bold-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/playmaker/bold/"
+  }
+],
+[
+  "expressionist-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/expressionist/soft/"
+  }
+],
+[
+  "expressionist-balanced-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/expressionist/balanced/"
+  }
+],
+[
+  "expressionist-bold-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/expressionist/bold/"
+  }
+],
+[
+  "visionary-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/visionary/soft/"
+  }
+],
+[
+  "visionary-balanced-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/visionary/balanced/"
+  }
+],
+[
+  "visionary-bold-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/visionary/bold/"
+  }
+],
+[
+  "activist-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/activist/soft/"
+  }
+],
+[
+  "activist-balanced-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/activist/balanced/"
+  }
+],
+[
+  "activist-bold-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/activist/bold/"
+  }
+],
+[
+  "dreamer-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/dreamer/soft/"
+  }
+],
+[
+  "dreamer-balanced-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/dreamer/balanced/"
+  }
+],
+[
+  "dreamer-bold-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/dreamer/bold/"
+  }
+],
+[
+  "innovator-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/innovator/soft/"
+  }
+],
+[
+  "innovator-balanced-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/innovator/balanced/"
+  }
+],
+[
+  "innovator-bold-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/innovator/bold/"
+  }
+]
