@@ -1,1658 +1,1010 @@
 {
-  "lush-light": {
+  "playmaker-soft": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#84958bff"
+      "value": "hsla(355,86%,78%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#d2e4daff"
+      "value": "hsla(354,91%,87%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#e9f2ecff"
+      "value": "hsla(355,100%,93%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#303633ff"
+      "value": "hsla(7,92%,15%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#303633e6"
+      "value": "hsla(7,92%,15%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#30363326"
+      "value": "hsla(7,90%,53%,0.1)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#f5f9f7ff"
+      "value": "hsla(0,100%,99%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#d9e8dfff"
+      "value": "hsla(355,96%,29%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#d2e4d9b3"
+      "value": "hsla(354,93%,84%,0.3)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#3e654eff"
+      "value": "hsla(355,90%,30%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a5aff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#d33504ff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#eb801cff"
+      "value": "hsla(29,84%,52%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#3e654eff"
+      "value": "hsla(10,89%,22%,1.0)"
     }
   },
-  "lush-medium": {
+  "playmaker-balanced": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#84958bff"
+      "value": "hsla(354,81%,62%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#40594aff"
+      "value": "hsla(354,71%,43%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a5aff"
+      "value": "hsla(354,80%,69%,1.0)"
     },
     "03a-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03a-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000cc"
+      "value": "hsla(0,0%,0%,0.8)"
     },
     "03a-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#00000033"
+      "value": "hsla(0,0%,0%,0.2)"
     },
     "03b-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff40"
+      "value": "hsla(0,0%,100%,0.3)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#cdd6d0ff"
+      "value": "hsla(355,73%,91%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#609f7aff"
+      "value": "hsla(354,87%,36%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#418b604d"
+      "value": "hsla(355,62%,75%,0.3)"
     },
     "09a-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "09b-modal-backgrounds-tab-and-search": {
-      "description": null,
-      "type": "color",
-      "value": "#eff1efff"
+      "value": "hsla(352,65%,95%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#455f4dff"
+      "value": "hsla(354,79%,40%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15a-icon-status-on-dark-background": {
-      "description": null,
-      "type": "color",
-      "value": "#d2e4daff"
+      "value": "hsla(352,82%,38%,1.0)"
     },
     "15b-icon-status-on-light-background": {
-      "description": null,
-      "type": "color",
-      "value": "#455f4dff"
+      "value": "hsla(354,71%,43%,1.0)"
     }
   },
-  "lush-dark": {
+  "playmaker-bold": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#2a613aff"
+      "value": "hsla(354,71%,43%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#405948ff"
+      "value": "hsla(354,78%,18%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#5b7b65ff"
+      "value": "hsla(354,56%,28%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#323433ff"
+      "value": "hsla(0,50%,1%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#506256ff"
+      "value": "hsla(354,83%,75%,1.0)"
     },
     "06-border-high-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#718477ff"
+      "value": "hsla(354,80%,40%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#6996766b"
+      "value": "hsla(354,71%,43%,0.4)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#464947ff"
+      "value": "hsla(355,61%,11%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#cbebd9ff"
+      "value": "hsla(4,82%,76%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#cbebd9ff"
+      "value": "hsla(0,95%,84%,1.0)"
     }
   },
-  "abstract-light": {
+  "expressionist-soft": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#e27550ff"
+      "value": "hsla(45,69%,73%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#ffab8fff"
+      "value": "hsla(45,76%,85%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "hsla(15, 100%, 86%, 1)"
+      "value": "hsla(46,94%,94%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#151413ff"
+      "value": "hsla(30,5%,8%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#151413d9"
+      "value": "hsla(30,5%,8%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#15141326"
+      "value": "hsla(45,95%,29%,0.1)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#fdf5f2ff"
+      "value": "hsla(44,100%,97%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#f0baa8ff"
+      "value": "hsla(45,91%,30%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#f2470d33"
+      "value": "hsla(40,90%,50%,0.2)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#a53f1dff"
+      "value": "hsla(33,86%,23%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a5aff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#d33504ff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#996529ff"
+      "value": "hsla(29,84%,52%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#a53f1dff"
+      "value": "hsla(33,74%,29%,1.0)"
     }
   },
-  "abstract-medium": {
+  "expressionist-balanced": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#e67d5aff"
+      "value": "hsla(45,69%,58%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#8c3c21ff"
+      "value": "hsla(45,85%,63%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#a54727ff"
+      "value": "hsla(45,93%,77%,1.0)"
     },
     "03a-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03a-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000bf"
+      "value": "hsla(0,0%,0%,0.7)"
     },
     "03a-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#00000026"
+      "value": "hsla(0,0%,0%,0.1)"
     },
     "03b-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03b-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#e0c2b8ff"
+      "value": "hsla(46,94%,94%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#e67d5aff"
+      "value": "hsla(33,91%,27%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#f1805b4d"
+      "value": "hsla(45,85%,63%,0.2)"
     },
     "09a-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "09b-modal-backgrounds-tab-and-search": {
-      "description": null,
-      "type": "color",
-      "value": "#fdf5f2ff"
+      "value": "hsla(46,91%,95%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#a54727ff"
+      "value": "hsla(33,91%,27%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff9e9eff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(29,84%,52%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15a-icon-status-on-dark-background": {
-      "description": null,
-      "type": "color",
-      "value": "#ffbca3ff"
+      "value": "hsla(33,74%,29%,1.0)"
     },
     "15b-icon-status-on-light-background": {
-      "description": null,
-      "type": "color",
-      "value": "#a54727ff"
+      "value": "hsla(32,93%,27%,1.0)"
     }
   },
-  "abstract-dark": {
+  "expressionist-bold": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#e67d5aff"
+      "value": "hsla(45,74%,40%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#2d2725ff"
+      "value": "hsla(45,95%,17%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#463d39ff"
+      "value": "hsla(45,89%,25%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#fbcbbbff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#fbcbbbe6"
+      "value": "hsla(0,0%,100%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#fbcbbb33"
+      "value": "hsla(41,97%,54%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#24201eff"
+      "value": "hsla(46,68%,4%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#ffcbb9ff"
+      "value": "hsla(45,49%,77%,1.0)"
     },
     "06-border-high-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#ffcbb9ff"
+      "value": "hsla(45,86%,83%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#ffcbb933"
+      "value": "hsla(45,87%,47%,0.2)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#383433ff"
+      "value": "hsla(47,95%,8%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#fabda8ff"
+      "value": "hsla(45,78%,82%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#e5ac99ff"
+      "value": "hsla(45,68%,66%,1.0)"
     }
   },
-  "elemental-light": {
+  "visionary-soft": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#a19d94ff"
+      "value": "hsla(147,61%,63%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#e2e1deff"
+      "value": "hsla(147,53%,75%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#f1f0efff"
+      "value": "hsla(146,49%,85%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#1c1b17ff"
+      "value": "hsla(48,10%,10%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#1c1b17e0"
+      "value": "hsla(48,10%,10%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#1c1b171a"
+      "value": "hsla(48,10%,10%,0.1)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#f3f3f1ff"
+      "value": "hsla(148,100%,97%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#dbdad6ff"
+      "value": "hsla(147,89%,22%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#bfbcb666"
+      "value": "hsla(147,54%,52%,0.3)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(140,60%,98%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#67635aff"
+      "value": "hsla(147,73%,27%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a5aff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#d33504ff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#eb801cff"
+      "value": "hsla(29,84%,52%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#67635aff"
+      "value": "hsla(144,70%,21%,1.0)"
     }
   },
-  "elemental-medium": {
+  "visionary-balanced": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#67635aff"
+      "value": "hsla(147,79%,32%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#524e47ff"
+      "value": "hsla(147,94%,25%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#6d695fff"
+      "value": "hsla(146,38%,49%,1.0)"
     },
     "03a-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03a-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000b3"
+      "value": "hsla(0,0%,0%,0.7)"
     },
     "03a-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#00000026"
+      "value": "hsla(0,0%,0%,0.1)"
     },
     "03b-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "hsla(42, 8%, 78%, 1)"
+      "value": "hsla(146,30%,86%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#a09c92ff"
+      "value": "hsla(147,72%,21%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#948f8566"
+      "value": "hsla(147,40%,78%,0.3)"
     },
     "09a-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "09b-modal-backgrounds-tab-and-search": {
-      "description": null,
-      "type": "color",
-      "value": "#ecebe9ff"
+      "value": "hsla(150,57%,97%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#575b59ff"
+      "value": "hsla(147,89%,19%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15a-icon-status-on-dark-background": {
-      "description": null,
-      "type": "color",
-      "value": "#dcdad6ff"
+      "value": "hsla(143,55%,13%,1.0)"
     },
     "15b-icon-status-on-light-background": {
-      "description": null,
-      "type": "color",
-      "value": "#312f2bff"
+      "value": "hsla(137,80%,18%,1.0)"
     }
   },
-  "elemental-dark": {
+  "visionary-bold": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#67635aff"
+      "value": "hsla(147,85%,21%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#524e47ff"
+      "value": "hsla(146,89%,11%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "hsla(42, 6%, 43%, 1)"
+      "value": "hsla(147,82%,17%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffe6"
+      "value": "hsla(0,0%,100%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#524e47ff"
+      "value": "hsla(150,29%,3%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#6d695fff"
+      "value": "hsla(146,66%,37%,1.0)"
     },
     "06-border-high-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#67635aff"
+      "value": "hsla(146,65%,21%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#b8b4ad4d"
+      "value": "hsla(133,94%,27%,0.3)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#44413bff"
+      "value": "hsla(148,74%,7%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#e7e6e4ff"
+      "value": "hsla(40,6%,90%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffb8b8ff"
+      "value": "hsla(0,100%,86%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#edc431ff"
+      "value": "hsla(47,84%,56%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#e2e1deff"
+      "value": "hsla(147,72%,49%,1.0)"
     }
   },
-  "cheers-light": {
+  "activist-soft": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#d7af50ff"
+      "value": "hsla(226,54%,56%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#ffd266ff"
+      "value": "hsla(226,45%,79%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffe7adff"
+      "value": "hsla(227,47%,90%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000c7"
+      "value": "hsla(0,0%,0%,0.8)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#0000001a"
+      "value": "hsla(0,0%,0%,0.1)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#f7f0deff"
+      "value": "hsla(226,68%,96%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#ffc333ff"
+      "value": "hsla(226,54%,56%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#ffde8fe6"
+      "value": "hsla(226,54%,56%,0.3)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#805900ff"
+      "value": "hsla(226,67%,37%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a56ff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#d33504ff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ca6b12ff"
+      "value": "hsla(29,84%,52%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#996b00ff"
+      "value": "hsla(227,91%,41%,1.0)"
     }
   },
-  "cheers-medium": {
+  "activist-balanced": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#d7af50ff"
+      "value": "hsla(220,65%,40%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#fac038ff"
+      "value": "hsla(220,72%,28%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#fbd06aff"
+      "value": "hsla(220,49%,48%,1.0)"
     },
     "03a-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03a-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000d9"
+      "value": "hsla(0,0%,0%,0.9)"
     },
     "03a-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#00000026"
+      "value": "hsla(0,0%,0%,0.1)"
     },
     "03b-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffd9"
+      "value": "hsla(0,0%,100%,0.9)"
     },
     "03b-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#171717ff"
+      "value": "hsla(221,63%,87%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#ead5a4ff"
+      "value": "hsla(220,58%,39%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#ffc53d38"
+      "value": "hsla(220,54%,80%,0.3)"
     },
     "09a-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#333333ff"
+      "value": "hsla(228,100%,99%,1.0)"
     },
     "09b-modal-backgrounds-tab-and-search": {
-      "description": null,
-      "type": "color",
-      "value": "#343434ff"
+      "value": "hsla(223,100%,99%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#fac038ff"
+      "value": "hsla(220,76%,31%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a56ff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#cd3304ff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#8f6400ff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
-    "15a-icon-status-on-dark-background": {
-      "description": null,
-      "type": "color",
-      "value": "#8a6100ff"
+    "15a-icon-status-on-light-background": {
+      "value": "hsla(220,93%,82%,1.0)"
     },
-    "15b-icon-status-on-light-background": {
-      "description": null,
-      "type": "color",
-      "value": "#fac038ff"
+    "15b-icon-status-on-dark-background": {
+      "value": "hsla(40,7%,18%,1.0)"
     }
   },
-  "cheers-dark": {
+  "activist-bold": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#d7af50ff"
+      "value": "hsla(220,72%,28%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#1c1c1cff"
+      "value": "hsla(233,73%,12%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#333333ff"
+      "value": "hsla(234,90%,19%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#fbc851ff"
+      "value": "hsla(220,89%,69%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#fbc851d9"
+      "value": "hsla(220,80%,79%,1.0)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#fbc85133"
+      "value": "hsla(214,100%,44%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#1d1d1dff"
+      "value": "hsla(222,100%,3%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#fac038ff"
+      "value": "hsla(220,69%,66%,1.0)"
     },
     "06-border-high-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#e9b73eff"
+      "value": "hsla(220,54%,67%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#fac03833"
+      "value": "hsla(220,89%,69%,0.2)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#292929ff"
+      "value": "hsla(220,79%,11%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#eacc86ff"
+      "value": "hsla(219,37%,59%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#eacc86ff"
+      "value": "hsla(220,70%,78%,1.0)"
     }
   },
-  "graffiti-light": {
+  "dreamer-soft": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#ab9db3ff"
+      "value": "hsla(259,47%,65%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#e1baf7ff"
+      "value": "hsla(258,49%,84%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "hsla(278, 80%, 91%, 1)"
+      "value": "hsla(259,69%,94%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#1b141fff"
+      "value": "hsla(278,22%,10%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#1b141fd9"
+      "value": "hsla(278,22%,10%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#1b141f26"
+      "value": "hsla(278,22%,10%,0.1)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#f5e8fcff"
+      "value": "hsla(258,76%,97%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#e3bff8ff"
+      "value": "hsla(258,72%,43%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#d39af466"
+      "value": "hsla(259,56%,79%,0.3)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#7b4c96ff"
+      "value": "hsla(258,46%,46%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a5aff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#d33504ff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#956228ff"
+      "value": "hsla(32,58%,37%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#7b4c96ff"
+      "value": "hsla(278,49%,35%,1.0)"
     }
   },
-  "graffiti-medium": {
+  "dreamer-balanced": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#7b4c96ff"
+      "value": "hsla(266,49%,45%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#6e4486ff"
+      "value": "hsla(266,39%,35%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#8f61a8ff"
+      "value": "hsla(265,34%,47%,1.0)"
     },
     "03a-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03a-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000cc"
+      "value": "hsla(0,0%,0%,0.8)"
     },
     "03a-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#00000026"
+      "value": "hsla(0,0%,0%,0.1)"
     },
     "03b-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#ded1e6ff"
+      "value": "hsla(263,59%,91%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#8a57a8ff"
+      "value": "hsla(266,66%,24%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#d39af466"
+      "value": "hsla(264,43%,85%,0.3)"
     },
     "09a-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "09b-modal-backgrounds-tab-and-search": {
-      "description": null,
-      "type": "color",
-      "value": "#f3eef6ff"
+      "value": "hsla(277,31%,95%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#613d76ff"
+      "value": "hsla(266,39%,35%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdc5cff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15a-icon-status-on-dark-background": {
-      "description": null,
-      "type": "color",
-      "value": "#f5e8fcff"
+      "value": "hsla(278,88%,87%,1.0)"
     },
     "15b-icon-status-on-light-background": {
-      "description": null,
-      "type": "color",
-      "value": "#613d76ff"
+      "value": "hsla(278,32%,35%,1.0)"
     }
   },
-  "graffiti-dark": {
+  "dreamer-bold": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#7b4c96ff"
+      "value": "hsla(266,39%,35%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#4e315eff"
+      "value": "hsla(266,68%,20%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#6d4a82ff"
+      "value": "hsla(265,45%,29%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffe6"
+      "value": "hsla(0,0%,100%,0.9)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#1f1c22ff"
+      "value": "hsla(256,100%,4%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#744b8cff"
+      "value": "hsla(266,60%,67%,1.0)"
     },
     "06-border-high-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#8a57a8ff"
+      "value": "hsla(266,49%,45%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#8f5dad99"
+      "value": "hsla(266,39%,35%,0.6)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#3a3041ff"
+      "value": "hsla(267,54%,15%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#e7c8f9ff"
+      "value": "hsla(266,72%,82%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(0,100%,77%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#e1baf7ff"
+      "value": "hsla(266,83%,81%,1.0)"
     }
   },
-  "foto-light": {
+  "innovator-soft": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#cc9da4ff"
+      "value": "hsla(14,85%,67%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#edc0c6ff"
+      "value": "hsla(14,81%,81%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "hsla(351, 47%, 89%, 1)"
+      "value": "hsla(14,64%,87%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#1b0e10ff"
+      "value": "hsla(351,32%,8%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#1b0e10cc"
+      "value": "hsla(351,32%,8%,0.8)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#1b0e101a"
+      "value": "hsla(351,32%,8%,0.1)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#f5ebecff"
+      "value": "hsla(14,84%,95%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#f3ced4ff"
+      "value": "hsla(14,93%,36%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#e9b9c080"
+      "value": "hsla(14,83%,76%,0.4)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#8c404cff"
+      "value": "hsla(14,86%,41%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#4e6a5aff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#d33504ff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#b8610fff"
+      "value": "hsla(29,85%,39%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#125c8bff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#8d4953ff"
+      "value": "hsla(14,89%,28%,1.0)"
     }
   },
-  "foto-medium": {
+  "innovator-balanced": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#cc9da4ff"
+      "value": "hsla(14,94%,34%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#8c404cff"
+      "value": "hsla(14,94%,55%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#a44b59ff"
+      "value": "hsla(14,93%,83%,1.0)"
     },
     "03a-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#000000ff"
+      "value": "hsla(0,0%,0%,1.0)"
     },
     "03a-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#000000bf"
+      "value": "hsla(0,0%,0%,0.7)"
     },
     "03a-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#00000026"
+      "value": "hsla(0,0%,0%,0.1)"
     },
     "03b-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03b-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#dfb9bfff"
+      "value": "hsla(11,100%,90%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#cb7885ff"
+      "value": "hsla(10,92%,33%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#e19da880"
+      "value": "hsla(17,89%,79%,0.3)"
     },
     "09a-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "09b-modal-backgrounds-tab-and-search": {
-      "description": null,
-      "type": "color",
-      "value": "#f5eaecff"
+      "value": "hsla(12,100%,91%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#8c404cff"
+      "value": "hsla(10,86%,40%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(146,15%,36%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ff8c8cff"
+      "value": "hsla(14,96%,42%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(29,84%,52%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(203,77%,31%,1.0)"
     },
     "15a-icon-status-on-dark-background": {
-      "description": null,
-      "type": "color",
-      "value": "#edc0c6ff"
+      "value": "hsla(17,94%,37%,1.0)"
     },
     "15b-icon-status-on-light-background": {
-      "description": null,
-      "type": "color",
-      "value": "#8c404cff"
+      "value": "hsla(10,86%,40%,1.0)"
     }
   },
-  "foto-dark": {
+  "innovator-bold": {
     "00-base-color": {
-      "description": null,
-      "type": "color",
-      "value": "#cc9da4ff"
+      "value": "hsla(10,94%,58%,1.0)"
     },
     "01-background-base": {
-      "description": null,
-      "type": "color",
-      "value": "#65343cff"
+      "value": "hsla(10,89%,18%,1.0)"
     },
     "02-background-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#8d4953ff"
+      "value": "hsla(11,87%,32%,1.0)"
     },
     "03-text-toolbar": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-secondary-text": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffffff"
+      "value": "hsla(0,0%,100%,1.0)"
     },
     "03-text-toolbar-toolbar-icon-hover": {
-      "description": null,
-      "type": "color",
-      "value": "#ffffff33"
+      "value": "hsla(0,0%,100%,0.2)"
     },
     "04-background-content-light": {
-      "description": null,
-      "type": "color",
-      "value": "#312527ff"
+      "value": "hsla(10,100%,1%,1.0)"
     },
     "05-border-low-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#9a505bff"
+      "value": "hsla(10,60%,68%,1.0)"
     },
     "06-border-high-contrast": {
-      "description": null,
-      "type": "color",
-      "value": "#ab5e69ff"
+      "value": "hsla(10,93%,89%,1.0)"
     },
     "08-highlight-rows": {
-      "description": null,
-      "type": "color",
-      "value": "#a8576399"
+      "value": "hsla(10,85%,36%,0.3)"
     },
     "09-modal-backgrounds": {
-      "description": null,
-      "type": "color",
-      "value": "#512f34ff"
+      "value": "hsla(11,96%,10%,1.0)"
     },
     "10-url-details": {
-      "description": null,
-      "type": "color",
-      "value": "#f4d7dcff"
+      "value": "hsla(350,57%,90%,1.0)"
     },
     "11-update-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#adff6dff"
+      "value": "hsla(94,100%,71%,1.0)"
     },
     "12-critical-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffb8b8ff"
+      "value": "hsla(0,100%,86%,1.0)"
     },
     "13-warning-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#ffdb5aff"
+      "value": "hsla(47,100%,68%,1.0)"
     },
     "14-information-alert": {
-      "description": null,
-      "type": "color",
-      "value": "#6dffedff"
+      "value": "hsla(173,100%,71%,1.0)"
     },
     "15-icon-status": {
-      "description": null,
-      "type": "color",
-      "value": "#edc0c6ff"
+      "value": "hsla(11,88%,90%,1.0)"
     }
   }
 }

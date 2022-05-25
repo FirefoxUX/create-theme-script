@@ -1,126 +1,126 @@
 [
-  "lush-soft-colorway@mozilla.org",
+  "playmaker-soft-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/lush/soft/"
+    "path": "monochromatic/playmaker/soft/"
   }
 ],
 [
-  "lush-balanced-colorway@mozilla.org",
+  "playmaker-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/lush/balanced/"
+    "path": "monochromatic/playmaker/balanced/"
   }
 ],
 [
-  "lush-bold-colorway@mozilla.org",
+  "playmaker-bold-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/lush/bold/"
+    "path": "monochromatic/playmaker/bold/"
   }
 ],
 [
-  "abstract-soft-colorway@mozilla.org",
+  "expressionist-soft-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/abstract/soft/"
+    "path": "monochromatic/expressionist/soft/"
   }
 ],
 [
-  "abstract-balanced-colorway@mozilla.org",
+  "expressionist-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/abstract/balanced/"
+    "path": "monochromatic/expressionist/balanced/"
   }
 ],
 [
-  "abstract-bold-colorway@mozilla.org",
+  "expressionist-bold-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/abstract/bold/"
+    "path": "monochromatic/expressionist/bold/"
   }
 ],
 [
-  "elemental-soft-colorway@mozilla.org",
+  "visionary-soft-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/elemental/soft/"
+    "path": "monochromatic/visionary/soft/"
   }
 ],
 [
-  "elemental-balanced-colorway@mozilla.org",
+  "visionary-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/elemental/balanced/"
+    "path": "monochromatic/visionary/balanced/"
   }
 ],
 [
-  "elemental-bold-colorway@mozilla.org",
+  "visionary-bold-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/elemental/bold/"
+    "path": "monochromatic/visionary/bold/"
   }
 ],
 [
-  "cheers-soft-colorway@mozilla.org",
+  "activist-soft-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/cheers/soft/"
+    "path": "monochromatic/activist/soft/"
   }
 ],
 [
-  "cheers-balanced-colorway@mozilla.org",
+  "activist-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/cheers/balanced/"
+    "path": "monochromatic/activist/balanced/"
   }
 ],
 [
-  "cheers-bold-colorway@mozilla.org",
+  "activist-bold-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/cheers/bold/"
+    "path": "monochromatic/activist/bold/"
   }
 ],
 [
-  "graffiti-soft-colorway@mozilla.org",
+  "dreamer-soft-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/graffiti/soft/"
+    "path": "monochromatic/dreamer/soft/"
   }
 ],
 [
-  "graffiti-balanced-colorway@mozilla.org",
+  "dreamer-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/graffiti/balanced/"
+    "path": "monochromatic/dreamer/balanced/"
   }
 ],
 [
-  "graffiti-bold-colorway@mozilla.org",
+  "dreamer-bold-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/graffiti/bold/"
+    "path": "monochromatic/dreamer/bold/"
   }
 ],
 [
-  "foto-soft-colorway@mozilla.org",
+  "innovator-soft-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/foto/soft/"
+    "path": "monochromatic/innovator/soft/"
   }
 ],
 [
-  "foto-balanced-colorway@mozilla.org",
+  "innovator-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/foto/balanced/"
+    "path": "monochromatic/innovator/balanced/"
   }
 ],
 [
-  "foto-bold-colorway@mozilla.org",
+  "innovator-bold-colorway@mozilla.org",
   {
     "version": "1.0",
-    "path": "monochromatic/foto/bold/"
+    "path": "monochromatic/innovator/bold/"
   }
 ]

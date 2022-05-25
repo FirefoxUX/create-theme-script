@@ -12,17 +12,17 @@ function writeManifest(data) {
   for (let [name, colors] of Object.entries(json)) {
     console.log(`Processing ${name}`);
     let [colorName, variantName] = name.split("-");
-    switch (variantName) {
-      case "light":
-        variantName = "soft";
-        break;
-      case "medium":
-        variantName = "balanced";
-        break;
-      case "dark":
-        variantName = "bold";
-        break;
-    }
+    // switch (variantName) {
+    //   case "light":
+    //     variantName = "soft";
+    //     break;
+    //   case "medium":
+    //     variantName = "balanced";
+    //     break;
+    //   case "dark":
+    //     variantName = "bold";
+    //     break;
+    // }
     let idName = `${colorName}-${variantName}`;
     let displayName = `${
       colorName[0].toLocaleUpperCase() + colorName.substring(1)
@@ -79,12 +79,12 @@ function writeManifest(data) {
       colors["14-information-alert"].value
     ).toHslString();
     const attentionDarkBg = colord(
-      colors["15-icon-status"]?.value ||
-        colors["15a-icon-status-on-dark-background"].value
+      colors["15-icon-status"]?.value || 'blgh'
+        // colors["15a-icon-status-on-dark-background"].value
     ).toHslString();
     const attentionLightBg = colord(
-      colors["15-icon-status"]?.value ||
-        colors["15b-icon-status-on-light-background"].value
+      colors["15-icon-status"]?.value || 'blg'
+        // colors["15b-icon-status-on-light-background"].value
     ).toHslString();
 
     let toolbarFieldFocusBorder;
