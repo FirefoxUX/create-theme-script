@@ -1,5 +1,3 @@
-content/builtin-themes/monochromatic/playmaker/soft                         (monochromatic/playmaker/soft/*.svg)
-content/builtin-themes/monochromatic/playmaker/soft/manifest.json           (monochromatic/playmaker/soft/manifest.json)
 content/builtin-themes/monochromatic/playmaker/balanced                     (monochromatic/playmaker/balanced/*.svg)
 content/builtin-themes/monochromatic/playmaker/balanced/manifest.json       (monochromatic/playmaker/balanced/manifest.json)
 content/builtin-themes/monochromatic/playmaker/bold                         (monochromatic/playmaker/bold/*.svg)

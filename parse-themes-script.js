@@ -12,17 +12,17 @@ function writeManifest(data) {
   for (let [name, colors] of Object.entries(json)) {
     console.log(`Processing ${name}`);
     let [colorName, variantName] = name.split("-");
-    // switch (variantName) {
-    //   case "light":
-    //     variantName = "soft";
-    //     break;
-    //   case "medium":
-    //     variantName = "balanced";
-    //     break;
-    //   case "dark":
-    //     variantName = "bold";
-    //     break;
-    // }
+    switch (variantName) {
+      case "light":
+        variantName = "soft";
+        break;
+      case "medium":
+        variantName = "balanced";
+        break;
+      case "dark":
+        variantName = "bold";
+        break;
+    }
     let idName = `${colorName}-${variantName}`;
     let displayName = `${
       colorName[0].toLocaleUpperCase() + colorName.substring(1)
@@ -100,6 +100,7 @@ function writeManifest(data) {
         break;
     }
 
+    console.log(variantName);
     const toolbarFieldBackground =
       variantName == "balanced" ? modalBackgroundTabAndSearch : frameColor;
     const chicletBackground =
@@ -122,6 +123,10 @@ function writeManifest(data) {
       icons: { 32: "icon.svg" },
 
       theme: {
+        properties: {
+          color_scheme: variantName == "balanced" ? "light" : variantName == "soft" ? "light" : "dark",
+          content_color_scheme: "auto"
+        },
         colors: {
           tab_background_text: brightText,
           tab_text: darkText,

@@ -1,54 +1,5 @@
 {
-  "playmaker-soft": {
-    "00-base-color": {
-      "value": "hsla(355,86%,78%,1.0)"
-    },
-    "01-background-base": {
-      "value": "hsla(354,91%,87%,1.0)"
-    },
-    "02-background-toolbar": {
-      "value": "hsla(355,100%,93%,1.0)"
-    },
-    "03-text-toolbar": {
-      "value": "hsla(7,92%,15%,1.0)"
-    },
-    "03-text-toolbar-secondary-text": {
-      "value": "hsla(7,92%,15%,0.9)"
-    },
-    "03-text-toolbar-toolbar-icon-hover": {
-      "value": "hsla(7,90%,53%,0.1)"
-    },
-    "04-background-content-light": {
-      "value": "hsla(0,100%,99%,1.0)"
-    },
-    "05-border-low-contrast": {
-      "value": "hsla(355,96%,29%,1.0)"
-    },
-    "08-highlight-rows": {
-      "value": "hsla(354,93%,84%,0.3)"
-    },
-    "09-modal-backgrounds": {
-      "value": "hsla(0,0%,100%,1.0)"
-    },
-    "10-url-details": {
-      "value": "hsla(355,90%,30%,1.0)"
-    },
-    "11-update-alert": {
-      "value": "hsla(146,15%,36%,1.0)"
-    },
-    "12-critical-alert": {
-      "value": "hsla(14,96%,42%,1.0)"
-    },
-    "13-warning-alert": {
-      "value": "hsla(29,84%,52%,1.0)"
-    },
-    "14-information-alert": {
-      "value": "hsla(203,77%,31%,1.0)"
-    },
-    "15-icon-status": {
-      "value": "hsla(10,89%,22%,1.0)"
-    }
-  },
+
   "playmaker-balanced": {
     "00-base-color": {
       "value": "hsla(354,81%,62%,1.0)"

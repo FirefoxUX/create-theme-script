@@ -1,8 +1,4 @@
 [
-  "playmaker-soft-colorway@mozilla.org",
-  "resource://builtin-themes/monochromatic/playmaker/soft/preview.svg",
-],
-[
   "playmaker-balanced-colorway@mozilla.org",
   "resource://builtin-themes/monochromatic/playmaker/balanced/preview.svg",
 ],

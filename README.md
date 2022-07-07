@@ -6,5 +6,5 @@ To run this script:
 
 ```
 npm install
-node parse-theme-script.js
+node parse-themes-script.js
 ```
