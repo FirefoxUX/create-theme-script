@@ -12,6 +12,10 @@
     "32": "icon.svg"
   },
   "theme": {
+    "properties": {
+      "color_scheme": "light",
+      "content_color_scheme": "auto"
+    },
     "colors": {
       "tab_background_text": "hsl(7, 92%, 15%)",
       "tab_text": "hsl(7, 92%, 15%)",

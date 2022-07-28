@@ -1,4 +1,11 @@
 [
+  "playmaker-soft-colorway@mozilla.org",
+  {
+    "version": "1.0",
+    "path": "monochromatic/playmaker/soft/"
+  }
+],
+[
   "playmaker-balanced-colorway@mozilla.org",
   {
     "version": "1.0",
